@@ -1,0 +1,6 @@
+framework module Pods_pag_ios {
+  umbrella header "Pods-pag-ios-umbrella.h"
+
+  export *
+  module * { export * }
+}
