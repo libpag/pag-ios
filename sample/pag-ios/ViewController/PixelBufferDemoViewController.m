@@ -9,7 +9,6 @@
 #import <objc/runtime.h>
 
 #import <libpag/PAGPlayer.h>
-#import <libpag/PAGRenderer.h>
 #import <libpag/PAGSurface.h>
 #import <libpag/PAGFile.h>
 #import <libpag/PAGTextLayer.h>
@@ -86,66 +85,7 @@
     PAGTextLayer* textLayer = (PAGTextLayer*)[self.file getLayersByEditableIndex:1 layerType:PAGLayerTypeText].firstObject;
     [textLayer setText:@"test"];
 }
-
-
 @end
-
-
-
-/// Deprecated是libpag2.0之中提供的接口，在3.0中render已经过时。3.0中，替换数据不再存在于render中，而是下发到每个Layer之中。
-/// 3.0替换数据可以更简单，直接通过Layer进行替换。如果希望仍然使用原先的替换方式，可以在PAGFile中调用与2.0PAGRender一致的接口进行处理。
-/// 3.0的设计理念是先组装PAGComposition，再渲染。渲染过程中，如果希望修改，则对每个Layer具体调整。
-/// render中进度控制，播放控制的代码被归在PAGPlayer中；
-/// 图片替换、文本替换的代码被归在PAGLayer以及PAGFile中。
-@interface PixelBufferDemoViewController (Deprecated)
-
-@property (nonatomic, strong) PAGRenderer* render;
-
-- (void)initPAGDeprecated __attribute__((deprecated));
-
-- (CVPixelBufferRef)presentOnceDeprecated __attribute__((deprecated));
-
-- (void)replaceImageAndTextDeprecated __attribute__((deprecated));
-
-@end
-
-
-@implementation PixelBufferDemoViewController (Deprecated)
-
-- (void)setRender:(PAGRenderer *)render {
-    objc_setAssociatedObject(self, @"render", render, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
-}
-
-- (PAGRenderer *)render {
-    return objc_getAssociatedObject(self, @"render");
-}
-
-- (void)initPAGDeprecated {
-    PAGRenderer* render = [[PAGRenderer alloc] init];
-    [render setSurface:self.surface];
-    [render setFile:self.file];
-}
-
-- (CVPixelBufferRef)presentOnceDeprecated {
-    //
-    [self.render setProgress:0];
-    [self.render flush];
-    return [self.surface getCVPixelBuffer];
-}
-
-- (void)replaceImageAndTextDeprecated {
-    NSString* imagePath = [[NSBundle mainBundle] pathForResource:@"test" ofType:@"png"];
-    PAGImage* image = [PAGImage FromPath:imagePath];
-    [self.render replaceImage:0 data:image];
-    
-    PAGText* text = [self.file getTextData:0];
-    text.text = @"测试数据";
-    [self.render setTextData:0 data:text];
-}
-
-@end
-
-
 
 @implementation PixelBufferDemoViewController (Tool)
 
