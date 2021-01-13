@@ -32,6 +32,11 @@
 - (BOOL)present;
 
 /**
+ * Erases all pixels of this surface with transparent color. Returns true if the content has changed.
+ */
+- (BOOL)clearAll;
+
+/**
  * Free the cache created by the surface immediately. Can be called to reduce memory pressure.
  */
 - (void)freeCache;

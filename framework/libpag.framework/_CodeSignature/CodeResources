@@ -66,7 +66,7 @@
 		</data>
 		<key>Headers/PAGSurface.h</key>
 		<data>
-		vkxPJs3e3araJUez4uP15WxBqHU=
+		bP3ERUecApi7krjafWUgz6bknHc=
 		</data>
 		<key>Headers/PAGText.h</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Headers/PAGView.h</key>
 		<data>
-		TKDxnBToYWNW5VRuuWhDbnCi/mo=
+		emvBo2eJyXDgKvg4M+DDTgEawpk=
 		</data>
 		<key>Headers/libpag-umbrella.h</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5cqnx/JQG9MbgZZEVCjy0sut25Y=
+		uuGaVc/XZUKwIeYjMIOcc+idr+s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -276,11 +276,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vkxPJs3e3araJUez4uP15WxBqHU=
+			bP3ERUecApi7krjafWUgz6bknHc=
 			</data>
 			<key>hash2</key>
 			<data>
-			xtz3vlbIArLEwdy9S4w0ICtmqUA5/T9mMtUTUG84aY4=
+			EFedX7LMFQfnuiwvAfhuLO37OFRYpPXIxICCstu041U=
 			</data>
 		</dict>
 		<key>Headers/PAGText.h</key>
@@ -342,11 +342,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TKDxnBToYWNW5VRuuWhDbnCi/mo=
+			emvBo2eJyXDgKvg4M+DDTgEawpk=
 			</data>
 			<key>hash2</key>
 			<data>
-			pa/iobwWRGJUDUL7Z7HJQ1roINUcoiEwTzxtg6cI7lM=
+			ZA9GnXEnulwtnw3Sfa5ic7awgotyXjW8imhO63ms6pE=
 			</data>
 		</dict>
 		<key>Headers/libpag-umbrella.h</key>
