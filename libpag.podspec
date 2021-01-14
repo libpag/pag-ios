@@ -10,5 +10,11 @@ Pod::Spec.new do |s|
   s.author = {'libpag' => 'libpag@tencent.com'}
   s.ios.frameworks = ['UIKit', 'VideoToolbox', 'CoreMedia']
   s.vendored_frameworks = 'framework/*.framework'
+  s.pod_target_xcconfig = { 
+   'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' 
+  }
+  s.user_target_xcconfig = { 
+   'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
   
 end
