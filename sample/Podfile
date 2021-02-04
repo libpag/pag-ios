@@ -1,7 +1,7 @@
-install! 'cocoapods', :deterministic_uuids => false
 platform :ios, '8.0'
 
 target "pag-ios" do
-  use_frameworks!
-   pod 'libpag'
+  pod 'libpag'
+  pod 'Masonry'
+  pod 'Toast', '~> 4.0.0'
 end

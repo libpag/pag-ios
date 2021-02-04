@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D875F91C701AA09EDAC1412 /* Pods_pag_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC44A368E10C3FFA66E012A /* Pods_pag_ios.framework */; };
+		4D528E7625CA6219003E7DAF /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D528E7525CA6219003E7DAF /* VideoViewController.m */; };
+		4D528E8925CA673C003E7DAF /* CustomVideoCompositionInstruction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D528E8825CA673C003E7DAF /* CustomVideoCompositionInstruction.m */; };
+		4D528E8C25CA790C003E7DAF /* CustomVideoCompositing.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D528E8B25CA790C003E7DAF /* CustomVideoCompositing.m */; };
+		4D528EA925CADB3C003E7DAF /* small.pag in Resources */ = {isa = PBXBuildFile; fileRef = 4D528EA825CADB3C003E7DAF /* small.pag */; };
+		4D528EAC25CAE0E5003E7DAF /* SmallStickerVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D528EAB25CAE0E5003E7DAF /* SmallStickerVideoViewController.m */; };
+		4D528EAF25CAE10F003E7DAF /* BigStickerVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D528EAE25CAE10F003E7DAF /* BigStickerVideoViewController.m */; };
 		4D5799352525DCC5008D2E68 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6519A22525D7E80044D065 /* libavcodec.a */; };
 		4D5799362525DCCF008D2E68 /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6519A32525D7F90044D065 /* libavutil.a */; };
 		4D5D389622675BE9006729E8 /* particle_video.pag in Resources */ = {isa = PBXBuildFile; fileRef = 4D5D389322675BE9006729E8 /* particle_video.pag */; };
@@ -23,6 +28,9 @@
 		4DF488092224209A0001C955 /* BackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF488012224209A0001C955 /* BackgroundView.m */; };
 		4DF4880B2224209A0001C955 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF488062224209A0001C955 /* MainView.m */; };
 		4DF48810222421350001C955 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF4880F222421350001C955 /* BaseViewController.m */; };
+		568FDA9E923C0CBE6C8838F2 /* libPods-pag-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 073C8C267BF37171E713330B /* libPods-pag-ios.a */; };
+		683BB4F125CBB4FD009719B5 /* jisha.pag in Resources */ = {isa = PBXBuildFile; fileRef = 683BB4F025CBB4FD009719B5 /* jisha.pag */; };
+		683BB4F325CBB657009719B5 /* game.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 683BB4F225CBB657009719B5 /* game.mp4 */; };
 		852DA6F3230E681900D36CB2 /* RegisterSoftwareDecoderViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 852DA6F2230E681900D36CB2 /* RegisterSoftwareDecoderViewController.mm */; };
 		852DA709230E6A5600D36CB2 /* FFmpegDecoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 852DA702230E6A5600D36CB2 /* FFmpegDecoder.cpp */; };
 		852DA715230E6F4000D36CB2 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 852DA714230E6F3F00D36CB2 /* libiconv.tbd */; };
@@ -36,6 +44,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		073C8C267BF37171E713330B /* libPods-pag-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pag-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D528E7425CA6219003E7DAF /* VideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		4D528E7525CA6219003E7DAF /* VideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		4D528E8725CA673C003E7DAF /* CustomVideoCompositionInstruction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomVideoCompositionInstruction.h; sourceTree = "<group>"; };
+		4D528E8825CA673C003E7DAF /* CustomVideoCompositionInstruction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomVideoCompositionInstruction.m; sourceTree = "<group>"; };
+		4D528E8A25CA790C003E7DAF /* CustomVideoCompositing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomVideoCompositing.h; sourceTree = "<group>"; };
+		4D528E8B25CA790C003E7DAF /* CustomVideoCompositing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomVideoCompositing.m; sourceTree = "<group>"; };
+		4D528EA825CADB3C003E7DAF /* small.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = small.pag; sourceTree = "<group>"; };
+		4D528EAA25CAE0E5003E7DAF /* SmallStickerVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmallStickerVideoViewController.h; sourceTree = "<group>"; };
+		4D528EAB25CAE0E5003E7DAF /* SmallStickerVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmallStickerVideoViewController.m; sourceTree = "<group>"; };
+		4D528EAD25CAE10F003E7DAF /* BigStickerVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BigStickerVideoViewController.h; sourceTree = "<group>"; };
+		4D528EAE25CAE10F003E7DAF /* BigStickerVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BigStickerVideoViewController.m; sourceTree = "<group>"; };
 		4D5D389322675BE9006729E8 /* particle_video.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = particle_video.pag; sourceTree = "<group>"; };
 		4D5D389422675BE9006729E8 /* moonlight.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = moonlight.pag; sourceTree = "<group>"; };
 		4D5D389522675BE9006729E8 /* data_video.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = data_video.pag; sourceTree = "<group>"; };
@@ -58,6 +78,8 @@
 		4DF488052224209A0001C955 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
 		4DF488062224209A0001C955 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
 		4DF4880F222421350001C955 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		683BB4F025CBB4FD009719B5 /* jisha.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = jisha.pag; sourceTree = "<group>"; };
+		683BB4F225CBB657009719B5 /* game.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = game.mp4; sourceTree = "<group>"; };
 		852DA6F1230E681900D36CB2 /* RegisterSoftwareDecoderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterSoftwareDecoderViewController.h; sourceTree = "<group>"; };
 		852DA6F2230E681900D36CB2 /* RegisterSoftwareDecoderViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RegisterSoftwareDecoderViewController.mm; sourceTree = "<group>"; };
 		852DA702230E6A5600D36CB2 /* FFmpegDecoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FFmpegDecoder.cpp; sourceTree = "<group>"; };
@@ -77,7 +99,6 @@
 		85F4FBBC23C60E3200218EBD /* data-TimeStretch.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = "data-TimeStretch.pag"; sourceTree = "<group>"; };
 		C0A84B713B1726FBF2C45C1F /* Pods-pag-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pag-ios.debug.xcconfig"; path = "Target Support Files/Pods-pag-ios/Pods-pag-ios.debug.xcconfig"; sourceTree = "<group>"; };
 		D6A05E994D23A901B9F7AA7D /* Pods-pag-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pag-ios.release.xcconfig"; path = "Target Support Files/Pods-pag-ios/Pods-pag-ios.release.xcconfig"; sourceTree = "<group>"; };
-		EEC44A368E10C3FFA66E012A /* Pods_pag_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pag_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,15 +107,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				852DA715230E6F4000D36CB2 /* libiconv.tbd in Frameworks */,
-				0D875F91C701AA09EDAC1412 /* Pods_pag_ios.framework in Frameworks */,
 				4D5799362525DCCF008D2E68 /* libavutil.a in Frameworks */,
 				4D5799352525DCC5008D2E68 /* libavcodec.a in Frameworks */,
+				568FDA9E923C0CBE6C8838F2 /* libPods-pag-ios.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D528E8625CA6716003E7DAF /* AVFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				4D528E8725CA673C003E7DAF /* CustomVideoCompositionInstruction.h */,
+				4D528E8825CA673C003E7DAF /* CustomVideoCompositionInstruction.m */,
+				4D528E8A25CA790C003E7DAF /* CustomVideoCompositing.h */,
+				4D528E8B25CA790C003E7DAF /* CustomVideoCompositing.m */,
+			);
+			path = AVFoundation;
+			sourceTree = "<group>";
+		};
 		4DF487CE22241F7A0001C955 = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +148,7 @@
 		4DF487D922241F7A0001C955 /* pag-ios */ = {
 			isa = PBXGroup;
 			children = (
+				4D528E8625CA6716003E7DAF /* AVFoundation */,
 				852DA701230E6A5600D36CB2 /* PagDecoder */,
 				8568CBF0230D6E250007B2D7 /* ViewController */,
 				4DF487FE2224209A0001C955 /* assets */,
@@ -137,6 +170,9 @@
 		4DF487FE2224209A0001C955 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				683BB4F025CBB4FD009719B5 /* jisha.pag */,
+				683BB4F225CBB657009719B5 /* game.mp4 */,
+				4D528EA825CADB3C003E7DAF /* small.pag */,
 				8568CBF1230D6F4C0007B2D7 /* test2.pag */,
 				85F4FBAF23C5F70400218EBD /* test.pag */,
 				4D5D389522675BE9006729E8 /* data_video.pag */,
@@ -174,6 +210,12 @@
 				852DA6F2230E681900D36CB2 /* RegisterSoftwareDecoderViewController.mm */,
 				85F1369023B9E2C80059D5C0 /* CombinePAGViewController.h */,
 				85F1369123B9E2C80059D5C0 /* CombinePAGViewController.m */,
+				4D528E7425CA6219003E7DAF /* VideoViewController.h */,
+				4D528E7525CA6219003E7DAF /* VideoViewController.m */,
+				4D528EAA25CAE0E5003E7DAF /* SmallStickerVideoViewController.h */,
+				4D528EAB25CAE0E5003E7DAF /* SmallStickerVideoViewController.m */,
+				4D528EAD25CAE10F003E7DAF /* BigStickerVideoViewController.h */,
+				4D528EAE25CAE10F003E7DAF /* BigStickerVideoViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -194,7 +236,7 @@
 				4D6519A22525D7E80044D065 /* libavcodec.a */,
 				4D65199E2525D7080044D065 /* libpag.framework */,
 				852DA714230E6F3F00D36CB2 /* libiconv.tbd */,
-				EEC44A368E10C3FFA66E012A /* Pods_pag_ios.framework */,
+				073C8C267BF37171E713330B /* libPods-pag-ios.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -259,15 +301,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				85F4FBB023C5F70400218EBD /* test.pag in Resources */,
+				683BB4F325CBB657009719B5 /* game.mp4 in Resources */,
 				4D5D389622675BE9006729E8 /* particle_video.pag in Resources */,
 				4DF487E722241F7B0001C955 /* LaunchScreen.storyboard in Resources */,
 				4DF488082224209A0001C955 /* test.png in Resources */,
 				85F4FBBD23C60E3200218EBD /* data-TimeStretch.pag in Resources */,
 				4DF488072224209A0001C955 /* replacement.pag in Resources */,
+				4D528EA925CADB3C003E7DAF /* small.pag in Resources */,
 				4D5D389822675BE9006729E8 /* data_video.pag in Resources */,
 				4DF487E422241F7B0001C955 /* Assets.xcassets in Resources */,
 				4DF487E222241F7A0001C955 /* Main.storyboard in Resources */,
 				4D5D389722675BE9006729E8 /* moonlight.pag in Resources */,
+				683BB4F125CBB4FD009719B5 /* jisha.pag in Resources */,
 				8568CBF2230D6F4C0007B2D7 /* test2.pag in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,15 +368,20 @@
 			files = (
 				852DA6F3230E681900D36CB2 /* RegisterSoftwareDecoderViewController.mm in Sources */,
 				8568CBEF230D634C0007B2D7 /* ReplaceTextViewController.m in Sources */,
+				4D528E7625CA6219003E7DAF /* VideoViewController.m in Sources */,
+				4D528E8925CA673C003E7DAF /* CustomVideoCompositionInstruction.m in Sources */,
 				4DF4880B2224209A0001C955 /* MainView.m in Sources */,
 				4DF487EA22241F7B0001C955 /* main.m in Sources */,
 				852DA709230E6A5600D36CB2 /* FFmpegDecoder.cpp in Sources */,
+				4D528EAF25CAE10F003E7DAF /* BigStickerVideoViewController.m in Sources */,
 				85F4FBAA23C5769C00218EBD /* PixelBufferDemoViewController.m in Sources */,
 				85F1369223B9E2C80059D5C0 /* CombinePAGViewController.m in Sources */,
+				4D528EAC25CAE0E5003E7DAF /* SmallStickerVideoViewController.m in Sources */,
 				8568CBF5230D796C0007B2D7 /* ReplaceImageViewController.m in Sources */,
 				4DF488092224209A0001C955 /* BackgroundView.m in Sources */,
 				4DF487DC22241F7A0001C955 /* AppDelegate.m in Sources */,
 				4DF48810222421350001C955 /* BaseViewController.m in Sources */,
+				4D528E8C25CA790C003E7DAF /* CustomVideoCompositing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,7 +531,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RU2LWFT27Z;
+				DEVELOPMENT_TEAM = A25BQKLXTS;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -499,10 +549,11 @@
 					"$(PROJECT_DIR)/framework/ffmpeg",
 					"$(PROJECT_DIR)/pag-ios/ffmpeg",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.pag.test.100;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.pag.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
@@ -535,6 +586,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};
