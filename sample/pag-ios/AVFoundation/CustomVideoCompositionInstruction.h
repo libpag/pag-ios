@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 typedef NS_ENUM(NSInteger, StickerMode) {
     Sticker_SMALL = 0,//小贴纸方案,pag贴纸叠加到视频中
-    Sticker_BIG//大贴纸方案,pag贴纸
+    Sticker_BIG//大贴纸方案,视频填充到pag贴纸占位图中
 };
 
 @interface CustomVideoCompositionInstruction : NSObject <AVVideoCompositionInstruction>
