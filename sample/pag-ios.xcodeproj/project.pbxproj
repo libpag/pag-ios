@@ -41,6 +41,7 @@
 		85F4FBAA23C5769C00218EBD /* PixelBufferDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F4FBA923C5769C00218EBD /* PixelBufferDemoViewController.m */; };
 		85F4FBB023C5F70400218EBD /* test.pag in Resources */ = {isa = PBXBuildFile; fileRef = 85F4FBAF23C5F70400218EBD /* test.pag */; };
 		85F4FBBD23C60E3200218EBD /* data-TimeStretch.pag in Resources */ = {isa = PBXBuildFile; fileRef = 85F4FBBC23C60E3200218EBD /* data-TimeStretch.pag */; };
+		E67C40A025F105390019DD2D /* MoveAndRotateLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67C409F25F105390019DD2D /* MoveAndRotateLayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -99,6 +100,8 @@
 		85F4FBBC23C60E3200218EBD /* data-TimeStretch.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = "data-TimeStretch.pag"; sourceTree = "<group>"; };
 		C0A84B713B1726FBF2C45C1F /* Pods-pag-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pag-ios.debug.xcconfig"; path = "Target Support Files/Pods-pag-ios/Pods-pag-ios.debug.xcconfig"; sourceTree = "<group>"; };
 		D6A05E994D23A901B9F7AA7D /* Pods-pag-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pag-ios.release.xcconfig"; path = "Target Support Files/Pods-pag-ios/Pods-pag-ios.release.xcconfig"; sourceTree = "<group>"; };
+		E67C409A25F104A70019DD2D /* pag-ios-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pag-ios-Bridging-Header.h"; sourceTree = "<group>"; };
+		E67C409F25F105390019DD2D /* MoveAndRotateLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveAndRotateLayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +219,8 @@
 				4D528EAB25CAE0E5003E7DAF /* SmallStickerVideoViewController.m */,
 				4D528EAD25CAE10F003E7DAF /* BigStickerVideoViewController.h */,
 				4D528EAE25CAE10F003E7DAF /* BigStickerVideoViewController.m */,
+				E67C409A25F104A70019DD2D /* pag-ios-Bridging-Header.h */,
+				E67C409F25F105390019DD2D /* MoveAndRotateLayerViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -270,10 +275,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = kevingpqi;
+				ORGANIZATIONNAME = PAG;
 				TargetAttributes = {
 					4DF487D622241F7A0001C955 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -377,6 +383,7 @@
 				85F4FBAA23C5769C00218EBD /* PixelBufferDemoViewController.m in Sources */,
 				85F1369223B9E2C80059D5C0 /* CombinePAGViewController.m in Sources */,
 				4D528EAC25CAE0E5003E7DAF /* SmallStickerVideoViewController.m in Sources */,
+				E67C40A025F105390019DD2D /* MoveAndRotateLayerViewController.swift in Sources */,
 				8568CBF5230D796C0007B2D7 /* ReplaceImageViewController.m in Sources */,
 				4DF488092224209A0001C955 /* BackgroundView.m in Sources */,
 				4DF487DC22241F7A0001C955 /* AppDelegate.m in Sources */,
@@ -530,6 +537,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A25BQKLXTS;
@@ -553,6 +561,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.pag.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "pag-ios/ViewController/pag-ios-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
@@ -564,6 +575,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
@@ -587,6 +599,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.pag.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "pag-ios/ViewController/pag-ios-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
