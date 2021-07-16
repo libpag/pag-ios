@@ -13,6 +13,7 @@
 #import "PAGSurface.h"
 #import "PAGView.h"
 #import "CocoaUtils.h"
+#import "PAG.h"
 #import "PAGComposition.h"
 #import "PAGFile.h"
 #import "PAGFilter.h"

@@ -6,99 +6,103 @@
 	<dict>
 		<key>Headers/CocoaUtils.h</key>
 		<data>
-		Pz1Kbz/vBRxdzn3l8AS0gfSdUc4=
+		oaa614rdJXdwPCrzt8sOcAgo5os=
+		</data>
+		<key>Headers/PAG.h</key>
+		<data>
+		M8rBeIlweWQvBM8eAhcT3GIrW64=
 		</data>
 		<key>Headers/PAGComposition.h</key>
 		<data>
-		FBpJ917pjimZXnHXpTnCBdVfSag=
+		xzlwis8fTkQVwS15khqY2igEj+g=
 		</data>
 		<key>Headers/PAGFile.h</key>
 		<data>
-		Wf5tp1Kw7uqMlVbTPEaGUdRopV8=
+		Be0B6TYPElIHxaV96D3ur5ZytMc=
 		</data>
 		<key>Headers/PAGFilter.h</key>
 		<data>
-		D3pWqHI1AUj9zVSefB6yM/YnVN8=
+		nA43cThnVEMeT0tAwczCqGNeI8Q=
 		</data>
 		<key>Headers/PAGFont.h</key>
 		<data>
-		iUUjh5xSSBQIDVfXU1+y/Wto5zs=
+		4FLL1YzPqJT+q0E9Wz4zE0VUFc0=
 		</data>
 		<key>Headers/PAGImage.h</key>
 		<data>
-		QcI/k0F9hiAP+qauvRIkdzaMXU4=
+		HEyv1nzAo9UyQIGQAyB/w+/jtt8=
 		</data>
 		<key>Headers/PAGImageLayer.h</key>
 		<data>
-		1JvZT36xarhiAwE9y1cDpuccGKc=
+		w3VcYtnFoihl01+DAs3kuGNN9vg=
 		</data>
 		<key>Headers/PAGLayer.h</key>
 		<data>
-		UOGH7K3uH6EoDYL14foN+GvdFls=
+		o1sb1kZiEmiqw1wPEBFFro9E9aw=
 		</data>
 		<key>Headers/PAGMarker.h</key>
 		<data>
-		QYJ9hdjWj2gmIbI2hilcRsjOja0=
+		y7O4YeQxC1/bij2mmnX5i8l9L5Q=
 		</data>
 		<key>Headers/PAGMovie.h</key>
 		<data>
-		PDV+6fGr4BVUN7y/iK5wa1aUtII=
+		l9MkXxjWUML6/q4KeBtbLkuLizo=
 		</data>
 		<key>Headers/PAGPlayer.h</key>
 		<data>
-		3ryiAqc/jdLt//QT4uvN+AmQTjA=
+		gKo54zPdBPWi7QVYTFat/1RG7Yw=
 		</data>
 		<key>Headers/PAGRenderer.h</key>
 		<data>
-		C9qlLde1Rh11ADGB+pxSTFJ5UoE=
+		8qtMfuoNZo6BuJnhVXs4eh0G9fM=
 		</data>
 		<key>Headers/PAGScaleMode.h</key>
 		<data>
-		130lNqF6Ztl+7uxxoX2kbJVzrbA=
+		MZ/S+nA86DDfBgpuDtrNOtYazk8=
 		</data>
 		<key>Headers/PAGShapeLayer.h</key>
 		<data>
-		t24yG7o5XxrYJjziBnCFXjO1uD8=
+		IX3FnFTVciEPkxbA4pPF3/vC/Uc=
 		</data>
 		<key>Headers/PAGSolidLayer.h</key>
 		<data>
-		5L3fWRPpKEdqYl3GcVRdQFAOk2A=
+		dGeWDLFGvFjz8lpXjSdkPTAwNEk=
 		</data>
 		<key>Headers/PAGSurface.h</key>
 		<data>
-		bP3ERUecApi7krjafWUgz6bknHc=
+		l69o40e0pwbkP/G8K683h+MkzoU=
 		</data>
 		<key>Headers/PAGText.h</key>
 		<data>
-		oGLFn9Yyxs3t9Krs7Y1EJkVrxqo=
+		YqmFTzOalt7MAUWU1GEW4fvkRIM=
 		</data>
 		<key>Headers/PAGTextLayer.h</key>
 		<data>
-		9WLaqElW8AQ3wvijs+uFv7CAZAQ=
+		nje3rdjkUl+H6jqMWsXQMMIXFBU=
 		</data>
 		<key>Headers/PAGTimeStretchMode.h</key>
 		<data>
-		Lnc+AKX5lonOOhL9+bQ2h4ObDzs=
+		f6d2VBYkfwUVlJLn+hFfmMTBeIc=
 		</data>
 		<key>Headers/PAGVideoDecoder.h</key>
 		<data>
-		eVtQ04go+SQTg8iXFnl7tDFe2xU=
+		bV9vv5W22WppM04DtY08bf2EMK8=
 		</data>
 		<key>Headers/PAGVideoRange.h</key>
 		<data>
-		1l/Vc6wGEltBxkRL67afUMLD9Hg=
+		wOBL/DFXjWDMadP57jUxDk2DoMw=
 		</data>
 		<key>Headers/PAGView.h</key>
 		<data>
-		3k+HxdpwKJNAINwIQxRR5VEr9f8=
+		BlO/NSpuKJOSv5+UwPU3/Uo+q0w=
 		</data>
 		<key>Headers/libpag-umbrella.h</key>
 		<data>
-		joDkv+heb0tvM7rXjWBUVYB7Uzs=
+		RhB6wjRkYSgrNY29Lyto7I/+WhE=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		pAHU8JuYxZXDDiLCE6F+pC1584s=
+		D1wAFDbkhP0qR3enOZA0Y+H+Ghs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -111,253 +115,264 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Pz1Kbz/vBRxdzn3l8AS0gfSdUc4=
+			oaa614rdJXdwPCrzt8sOcAgo5os=
 			</data>
 			<key>hash2</key>
 			<data>
-			zIEOZqENYACw8DDf3wk4RKeyUq0Vq8Ny8iPbIuXH7Ew=
+			+WxmRlaJqQTony2E9CRhinObHIdTv/Hv+8duQp7TtFo=
+			</data>
+		</dict>
+		<key>Headers/PAG.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			M8rBeIlweWQvBM8eAhcT3GIrW64=
+			</data>
+			<key>hash2</key>
+			<data>
+			STBAVd9s+0Vj/rit9k326vN51RNpsfZKECCMSZqdU7o=
 			</data>
 		</dict>
 		<key>Headers/PAGComposition.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FBpJ917pjimZXnHXpTnCBdVfSag=
+			xzlwis8fTkQVwS15khqY2igEj+g=
 			</data>
 			<key>hash2</key>
 			<data>
-			1YXeFJDUfni8PAFOtMLuH8TUxc/EciQiL0SRYaWulWg=
+			cYay0IJd1naOKuIZFhYoxXqhXfbTC6B8sXWZa+mTezE=
 			</data>
 		</dict>
 		<key>Headers/PAGFile.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Wf5tp1Kw7uqMlVbTPEaGUdRopV8=
+			Be0B6TYPElIHxaV96D3ur5ZytMc=
 			</data>
 			<key>hash2</key>
 			<data>
-			/DV0DvZwWjTfITZLlX4A5BSo2DtTUYU0eqI5f7g3Bv0=
+			UFBoSTDREsEAH1pBrPqCqzn2Vs6G3YpEEwNKFAz8dO4=
 			</data>
 		</dict>
 		<key>Headers/PAGFilter.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			D3pWqHI1AUj9zVSefB6yM/YnVN8=
+			nA43cThnVEMeT0tAwczCqGNeI8Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			juoK5f+4Uwm7M5qWT1pYWKRWjAR1yyZucWhYYHK35Tg=
+			zHRqr/4Os9i4FaUPF67AFwa9IcgOmsrCkq6nN+2aeJY=
 			</data>
 		</dict>
 		<key>Headers/PAGFont.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iUUjh5xSSBQIDVfXU1+y/Wto5zs=
+			4FLL1YzPqJT+q0E9Wz4zE0VUFc0=
 			</data>
 			<key>hash2</key>
 			<data>
-			+h6k09G6zVFBVZKzAgBHnPr02JEosr9oioSJEdkYEUM=
+			3JSeVNLfKYvjfkCfzj3KVmkg7iWLTwzRLMRzROO3LGI=
 			</data>
 		</dict>
 		<key>Headers/PAGImage.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QcI/k0F9hiAP+qauvRIkdzaMXU4=
+			HEyv1nzAo9UyQIGQAyB/w+/jtt8=
 			</data>
 			<key>hash2</key>
 			<data>
-			C8shTT/tgllVvaISmcGGgUH7dSvGYZdRgSWsr98MPCk=
+			V6p51qnjd4Nf24WKza/lLujhk13rsoQMg4hd4PY3ZD8=
 			</data>
 		</dict>
 		<key>Headers/PAGImageLayer.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1JvZT36xarhiAwE9y1cDpuccGKc=
+			w3VcYtnFoihl01+DAs3kuGNN9vg=
 			</data>
 			<key>hash2</key>
 			<data>
-			Y+1XNJn8mcDCFL25D9+/8frL6MS0Jtn+NQ/7VVmF/qk=
+			POiNj9lbX9OBkNtK1N2EL7sZcuPB3ziy7IqZ1BclIJg=
 			</data>
 		</dict>
 		<key>Headers/PAGLayer.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UOGH7K3uH6EoDYL14foN+GvdFls=
+			o1sb1kZiEmiqw1wPEBFFro9E9aw=
 			</data>
 			<key>hash2</key>
 			<data>
-			kvHewgkekTB7fWCzvuOzRD4Xy7711siT5k6yoTM7zpU=
+			P1/bIASKMEH91aCbUiSgPX/4dQ12i9mHzyblIEq6QCw=
 			</data>
 		</dict>
 		<key>Headers/PAGMarker.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QYJ9hdjWj2gmIbI2hilcRsjOja0=
+			y7O4YeQxC1/bij2mmnX5i8l9L5Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			cdT+Zq2Jg6fl79vlT0QLkl2pPVdV7kQYYEF86n6Oy80=
+			OVIXdAu38SdmOMqAqdBr2iGzdtqBzZjCbBVystTGPBE=
 			</data>
 		</dict>
 		<key>Headers/PAGMovie.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PDV+6fGr4BVUN7y/iK5wa1aUtII=
+			l9MkXxjWUML6/q4KeBtbLkuLizo=
 			</data>
 			<key>hash2</key>
 			<data>
-			iV81YBeoT5buIgEmU8T/zOi1RO1B+2Ma8CfqPx+rG2c=
+			aLeg49Rx8Ndlrf/ZPaHONFP0faVA98LdSdcLUQboC3Y=
 			</data>
 		</dict>
 		<key>Headers/PAGPlayer.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3ryiAqc/jdLt//QT4uvN+AmQTjA=
+			gKo54zPdBPWi7QVYTFat/1RG7Yw=
 			</data>
 			<key>hash2</key>
 			<data>
-			+rGz4Q0/NfvsrpvIrqN2IgFdl88QC+8TLpeNx7Ez5tU=
+			CKph+40SD/tYuxe8COctTB2xXYUmWHvD9cYG2xhYgLE=
 			</data>
 		</dict>
 		<key>Headers/PAGRenderer.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			C9qlLde1Rh11ADGB+pxSTFJ5UoE=
+			8qtMfuoNZo6BuJnhVXs4eh0G9fM=
 			</data>
 			<key>hash2</key>
 			<data>
-			JZlJoyVyPQ5/RwX/d+AXnv5NdMm2B9QdwPE8vdELnik=
+			j1rv9gs/EuH7htAt7iEBWO9nO+uEshB3wdivZ5yfmyA=
 			</data>
 		</dict>
 		<key>Headers/PAGScaleMode.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			130lNqF6Ztl+7uxxoX2kbJVzrbA=
+			MZ/S+nA86DDfBgpuDtrNOtYazk8=
 			</data>
 			<key>hash2</key>
 			<data>
-			MryTHmp82y3RkBdWXWfMFVpi8evNMluPp02q6+LyWn0=
+			ke96zLRhS/UTsj/p+/6G3l6Z0eNPrq9ZTa5hr+nXvyU=
 			</data>
 		</dict>
 		<key>Headers/PAGShapeLayer.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			t24yG7o5XxrYJjziBnCFXjO1uD8=
+			IX3FnFTVciEPkxbA4pPF3/vC/Uc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z11YfCOlgRGxI0UweDqoUDekUNV9qvX7YQGOISUva8s=
+			ZUpO9WYaeJq8puYhFGH+5RnT4uUSKNxyIv9o/e/IeuQ=
 			</data>
 		</dict>
 		<key>Headers/PAGSolidLayer.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5L3fWRPpKEdqYl3GcVRdQFAOk2A=
+			dGeWDLFGvFjz8lpXjSdkPTAwNEk=
 			</data>
 			<key>hash2</key>
 			<data>
-			duvEBHnpKsXk8WXIpf2hcowyDVH4CsMveCWaPNHFr8U=
+			Mthti7SDp2cofdZQF8qdLi+FxSEGCqBe7pyfQasrQho=
 			</data>
 		</dict>
 		<key>Headers/PAGSurface.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bP3ERUecApi7krjafWUgz6bknHc=
+			l69o40e0pwbkP/G8K683h+MkzoU=
 			</data>
 			<key>hash2</key>
 			<data>
-			EFedX7LMFQfnuiwvAfhuLO37OFRYpPXIxICCstu041U=
+			OjPovcFFNFxlIfJLXHG7hsJ5DsQKgiP2Y6+q8wJlwy4=
 			</data>
 		</dict>
 		<key>Headers/PAGText.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oGLFn9Yyxs3t9Krs7Y1EJkVrxqo=
+			YqmFTzOalt7MAUWU1GEW4fvkRIM=
 			</data>
 			<key>hash2</key>
 			<data>
-			hkPLs4ZPPTurkUsSI+P6hPcwMJMh0mqYf4KTnOhbIAk=
+			beZ8jDMyrehAXqQoDT3IOFwF1KDQx7bgsIVCxO0OhbU=
 			</data>
 		</dict>
 		<key>Headers/PAGTextLayer.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9WLaqElW8AQ3wvijs+uFv7CAZAQ=
+			nje3rdjkUl+H6jqMWsXQMMIXFBU=
 			</data>
 			<key>hash2</key>
 			<data>
-			axwukHyPAs4AiHNycIvU1z8cVbIp8Up8GxMJ1Rm+aA0=
+			MkFAhbM4Fl+Jz0D0rNpTpjS0FIkOkIZxgfb/Ze5Hy1s=
 			</data>
 		</dict>
 		<key>Headers/PAGTimeStretchMode.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Lnc+AKX5lonOOhL9+bQ2h4ObDzs=
+			f6d2VBYkfwUVlJLn+hFfmMTBeIc=
 			</data>
 			<key>hash2</key>
 			<data>
-			gZ/zaQzBP7GFU0I2B6E3iZz7aaQti6Yk1Zk7LZZx5xw=
+			XvkOglPT+L+ZdXlGdUbDB214Zq7YXKBDHU6eKNRg5fA=
 			</data>
 		</dict>
 		<key>Headers/PAGVideoDecoder.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eVtQ04go+SQTg8iXFnl7tDFe2xU=
+			bV9vv5W22WppM04DtY08bf2EMK8=
 			</data>
 			<key>hash2</key>
 			<data>
-			ot237iKxyaK0yCfXnENIzlUaTKToVMwRFTZig95UtBg=
+			Jv27zh7L68nNrAHSQZkWY7efd+bz8eigZ8zVmBMwZPA=
 			</data>
 		</dict>
 		<key>Headers/PAGVideoRange.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1l/Vc6wGEltBxkRL67afUMLD9Hg=
+			wOBL/DFXjWDMadP57jUxDk2DoMw=
 			</data>
 			<key>hash2</key>
 			<data>
-			cGu29qaJViubZJV16DqijrcaJB7ltWDiycZM1Ku/jBE=
+			aXzVARagR89JvqVp0+d8HkXYKvKF0n14HsOXIOyOOwM=
 			</data>
 		</dict>
 		<key>Headers/PAGView.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3k+HxdpwKJNAINwIQxRR5VEr9f8=
+			BlO/NSpuKJOSv5+UwPU3/Uo+q0w=
 			</data>
 			<key>hash2</key>
 			<data>
-			r0hmbXEEo0vgt1ZWfZrNlDWvA+BHTQaFx5Drur9Qt8c=
+			7zsTzNdQJ9k4zLRQwLFx6FW3DscNeqtMJQVBJxXC5gw=
 			</data>
 		</dict>
 		<key>Headers/libpag-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			joDkv+heb0tvM7rXjWBUVYB7Uzs=
+			RhB6wjRkYSgrNY29Lyto7I/+WhE=
 			</data>
 			<key>hash2</key>
 			<data>
-			LTF7iwS3aWjcG0ImkaVHuVWa/57dFi6KRA162aByl50=
+			UtNSnDe1r92un2SaHORhVLGKoDxSd+zppavF3Kj7Hc0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

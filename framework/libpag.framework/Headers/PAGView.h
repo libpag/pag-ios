@@ -1,3 +1,26 @@
+///////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  The MIT License (MIT)
+//
+//  Copyright (c) 2016-present, Tencent. All rights reserved.
+//
+//  Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+//  and associated documentation files (the "Software"), to deal in the Software without
+//  restriction, including without limitation the rights to use, copy, modify, merge, publish,
+//  distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the
+//  Software is furnished to do so, subject to the following conditions:
+//
+//      The above copyright notice and this permission notice shall be included in all copies or
+//      substantial portions of the Software.
+//
+//  THE SOFTWARE IS PROVIDED *AS IS*, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+//  BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+//  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+//  DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+//  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+//
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
 #import "PAGFile.h"
 #import "PAGImage.h"
 #import "PAGLayer.h"
@@ -93,7 +116,8 @@
 
 /**
  * Load a pag file from the specified path, returns false if the file does not exist or the data is not a pag file.
- * Note: All PAGFiles loaded by the same path share the same internal cache. The internal cache is alive until all PAGFiles are released. Use '[PAGFile Load:size:]' instead if you don't want to load a PAGFile from the intenal caches.
+ * Note: All PAGFiles loaded by the same path share the same internal cache. The internal cache is alive until all
+ * PAGFiles are released. Use '[PAGFile Load:size:]' instead if you don't want to load a PAGFile from the internal caches.
  */
 - (BOOL)setPath:(NSString*)filePath;
 
@@ -212,17 +236,17 @@
 /**
  * [Deprecated](Please use 'getComposition' instead) Returns the current PAGFile object.
  */
-- (PAGFile*)getFile;
+- (PAGFile*)getFile DEPRECATED_MSG_ATTRIBUTE("Please use 'getComposition' instead");
 
 /**
  * [Deprecated](Please use 'setPath' or 'setComposition' instead) Set the PAGFile object for PAGView to render.
  */
-- (void)setFile:(PAGFile*)newFile;
+- (void)setFile:(PAGFile*)newFile DEPRECATED_MSG_ATTRIBUTE("Please use 'setComposition' instead");
 
 /**
  * [Deprecated](Please use 'getComposition' instead) Returns get the root PAGComposition object.
  */
-- (PAGComposition*)getRootComposition;
+- (PAGComposition*)getRootComposition DEPRECATED_MSG_ATTRIBUTE("Please use 'getComposition' instead");
 
 /**
  * [Deprecated](Please use 'flush' instead)
@@ -230,21 +254,21 @@
  * called, there is no need to call it. Returns true if the content has changed.
  * @param force Indicates whether the PAGView should redraw all content by force.
  */
-- (BOOL)flush:(BOOL)force;
+- (BOOL)flush:(BOOL)force DEPRECATED_MSG_ATTRIBUTE("Please use 'flush' instead");
 
 /**
  * [Deprecated](Please use '[PAGFile replaceText]'instead)
  * Update the text data of the specified index. The index ranges from 0 to PAGFile.numTexts - 1. Passing in null
  * for the data parameter will reset it to the default text data.
  */
-- (void)setTextData:(int)index data:(PAGText*)value;
+- (void)setTextData:(int)index data:(PAGText*)value DEPRECATED_MSG_ATTRIBUTE("Please use '[PAGFile replaceText]'instead");
 
 /**
  * [Deprecated](Please use '[PAGFile replaceImage]'instead)
  * Replace the image data of the specified index. The index ranges from 0 to PAGFile.numImages - 1. Passing in null
  * for the image parameter will reset it to the default image data.
  */
-- (void)replaceImage:(int)index data:(PAGImage*)value;
+- (void)replaceImage:(int)index data:(PAGImage*)value DEPRECATED_MSG_ATTRIBUTE("Please use '[PAGFile replaceImage]'instead");
 
 @end
 
