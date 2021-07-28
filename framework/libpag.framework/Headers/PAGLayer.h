@@ -23,7 +23,6 @@
 
 #import <Foundation/Foundation.h>
 #import "PAGMarker.h"
-#import "PAGFilter.h"
 
 typedef NS_ENUM(NSInteger, PAGLayerType) {
     PAGLayerTypeUnknown,
@@ -155,23 +154,6 @@ typedef NS_ENUM(NSInteger, PAGLayerType) {
  * Returns a rectangle that defines the original area of the layer, which is not transformed by the matrix.
  */
 - (CGRect)getBounds;
-
-/**
- * Returns the number of filter nodes of this PAGLayer.
- */
-- (NSInteger)numFilters;
-
-
-/**
- * Add a PAGFilter object to current PAGLayer as it's last filter node. If the PAGFilter object has a PAGLayer
- * object as a owner, the object is removed from it's owner.
- */
-- (void)addFilter:(PAGFilter *)pagFilter;
-
-/**
- * Remove all filter nodes from current PAGLayer.
- */
-- (void)removeAllFilters;
 
 /**
  * Indicate whether this layer is excluded from parent's timeline. If set to true, this layer's current time

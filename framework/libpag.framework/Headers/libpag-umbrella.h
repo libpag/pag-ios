@@ -16,7 +16,6 @@
 #import "PAG.h"
 #import "PAGComposition.h"
 #import "PAGFile.h"
-#import "PAGFilter.h"
 #import "PAGFont.h"
 #import "PAGImage.h"
 #import "PAGImageLayer.h"

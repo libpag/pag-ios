@@ -32,7 +32,6 @@
 #import <UIKit/UIKit.h>
 
 #define CocoaColor UIColor
-#define CocoaImage UIImage
 #define CocoaTextureCacheRef CVOpenGLESTextureCacheRef
 #define CocoaTextureRef CVOpenGLESTextureRef
 
@@ -41,7 +40,6 @@
 #import <AppKit/AppKit.h>
 
 #define CocoaColor NSColor
-#define CocoaImage NSImage
 #define CocoaTextureCacheRef CVOpenGLTextureCacheRef
 #define CocoaTextureRef CVOpenGLTextureRef
 

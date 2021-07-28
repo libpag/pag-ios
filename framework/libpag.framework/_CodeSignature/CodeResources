@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/CocoaUtils.h</key>
 		<data>
-		oaa614rdJXdwPCrzt8sOcAgo5os=
+		S6/AgIg8AjRT1Cv965mPox57Xcw=
 		</data>
 		<key>Headers/PAG.h</key>
 		<data>
@@ -19,10 +19,6 @@
 		<key>Headers/PAGFile.h</key>
 		<data>
 		Be0B6TYPElIHxaV96D3ur5ZytMc=
-		</data>
-		<key>Headers/PAGFilter.h</key>
-		<data>
-		nA43cThnVEMeT0tAwczCqGNeI8Q=
 		</data>
 		<key>Headers/PAGFont.h</key>
 		<data>
@@ -38,7 +34,7 @@
 		</data>
 		<key>Headers/PAGLayer.h</key>
 		<data>
-		o1sb1kZiEmiqw1wPEBFFro9E9aw=
+		zIPP0gbcxbkCftzwrqYnz9gImyg=
 		</data>
 		<key>Headers/PAGMarker.h</key>
 		<data>
@@ -98,7 +94,7 @@
 		</data>
 		<key>Headers/libpag-umbrella.h</key>
 		<data>
-		RhB6wjRkYSgrNY29Lyto7I/+WhE=
+		eyE+lYsS8xiNLfYLZ17gRJOO2Uc=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -115,11 +111,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oaa614rdJXdwPCrzt8sOcAgo5os=
+			S6/AgIg8AjRT1Cv965mPox57Xcw=
 			</data>
 			<key>hash2</key>
 			<data>
-			+WxmRlaJqQTony2E9CRhinObHIdTv/Hv+8duQp7TtFo=
+			/eOGiLM8MRaznKXVe0xp8AJdlOTqCk9QsGMF3/ppWng=
 			</data>
 		</dict>
 		<key>Headers/PAG.h</key>
@@ -153,17 +149,6 @@
 			<key>hash2</key>
 			<data>
 			UFBoSTDREsEAH1pBrPqCqzn2Vs6G3YpEEwNKFAz8dO4=
-			</data>
-		</dict>
-		<key>Headers/PAGFilter.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			nA43cThnVEMeT0tAwczCqGNeI8Q=
-			</data>
-			<key>hash2</key>
-			<data>
-			zHRqr/4Os9i4FaUPF67AFwa9IcgOmsrCkq6nN+2aeJY=
 			</data>
 		</dict>
 		<key>Headers/PAGFont.h</key>
@@ -203,11 +188,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			o1sb1kZiEmiqw1wPEBFFro9E9aw=
+			zIPP0gbcxbkCftzwrqYnz9gImyg=
 			</data>
 			<key>hash2</key>
 			<data>
-			P1/bIASKMEH91aCbUiSgPX/4dQ12i9mHzyblIEq6QCw=
+			61fxK0JNLRAwhNzIGuJfsLYO57WGMyJLrZ5YmF46P+o=
 			</data>
 		</dict>
 		<key>Headers/PAGMarker.h</key>
@@ -368,11 +353,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RhB6wjRkYSgrNY29Lyto7I/+WhE=
+			eyE+lYsS8xiNLfYLZ17gRJOO2Uc=
 			</data>
 			<key>hash2</key>
 			<data>
-			UtNSnDe1r92un2SaHORhVLGKoDxSd+zppavF3Kj7Hc0=
+			1UndW0jIKe/yDqk8J9hi1X3WbDcUi20mtip4dZ5gs80=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
