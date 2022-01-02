@@ -4,8 +4,6 @@
 <img src=https://pag.io/img/new_official_website/logo_l.png width=20% />
 </div>
 
-<style> a{ TEXT-DECORATION:none }</style>
-
 ![license](https://img.shields.io/badge/license-Apache2.0-brightgreen.svg)
 
 [<font color=blue>官方主页</font>](https://pag.io/)
