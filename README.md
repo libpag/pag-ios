@@ -35,5 +35,11 @@ PAG 的目标是降低或消除动画研发成本，打通设计师创作到素�
 ```
 	pod 'libpag' 
 ```
+
+然后执行
+```
+	pod install
+```
+
 版本更新记录查看：[<font color=blue>SDK下载页面</font>](https://github.com/libpag/libpag/releases)<br/>
 
