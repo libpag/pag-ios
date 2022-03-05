@@ -163,8 +163,6 @@
     [self.player pause];
     self.playButton.selected = NO;
     
-    [self.view makeToastActivity:CSToastPositionCenter];
- 
     // 创建导出任务
     self.exportSession = [[AVAssetExportSession alloc] initWithAsset:self.asset presetName:AVAssetExportPresetHighestQuality];
     self.exportSession.videoComposition = self.videoComposition;

@@ -1,7 +1,8 @@
-platform :ios, '8.0'
+platform :ios, '9.0'
 
 target "pag-ios" do
   pod 'libpag'
+  pod 'ffavc'
   pod 'Masonry'
-  pod 'Toast', '~> 4.0.0'
+  pod 'Toast'
 end
