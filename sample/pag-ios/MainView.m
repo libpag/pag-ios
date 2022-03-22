@@ -29,19 +29,19 @@
     if ([pagFile numTexts] > 0) {
         PAGText* textData = [pagFile getTextData:0];
         textData.text = @"hah哈哈哈哈哈👌";
-        [pagView setTextData:0 data:textData];
+        [pagFile replaceText:0 data:textData];
     }
     
     if([pagFile numImages] > 0){
         NSString* filePath = [[NSBundle mainBundle] pathForResource:@"test" ofType:@"png"];
         PAGImage* pagImage = [PAGImage FromPath:filePath];
         if(pagImage){
-            [pagView replaceImage:0 data:pagImage];
+            [pagFile replaceImage:0 data:pagImage];
         }
     }
     
-    [pagView setFile:pagFile];
-    [pagView setRepeatCount:-1];
+    [pagView setComposition:pagFile];
+    [pagView setRepeatCount:0];
     [pagView play];
 }
 
