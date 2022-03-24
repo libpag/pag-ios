@@ -23,12 +23,10 @@
 
 #import <Foundation/Foundation.h>
 
-
 @interface PAGVideoDecoder : NSObject
 
 /**
  * Register a software decoder factory to implement the decoder fallback mechanism.
- * For further info please visit : https://pag.io/docs/plugin-decoder.html
  */
 + (void)RegisterSoftwareDecoderFactory:(void *)decoderFactory;
 
@@ -37,6 +35,11 @@
  */
 + (void)SetMaxHardwareDecoderCount:(int)maxCount;
 
+/**
+ * If set to true, PAGVideoDecoder uses a software decoder first, but initializes a hardware on
+ * async thread, and then switches to the hardware decoder when it is initialized.
+ * The default value is true, which will improve the performance of first frame rendering.
+ */
++ (void)SetSoftwareToHardwareEnabled:(Boolean)value;
+
 @end
-
-

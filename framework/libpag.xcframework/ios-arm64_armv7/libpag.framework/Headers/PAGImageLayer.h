@@ -52,4 +52,9 @@
  */
 - (int64_t)contentDuration;
 
+/**
+ * The default image data of this layer, which is webp format.
+ */
+- (NSData*)imageBytes;
+
 @end
