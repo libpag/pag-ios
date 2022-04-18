@@ -1,24 +1,28 @@
 PODS:
-  - libpag (3.2.4.37)
+  - ffavc (1.0.1)
+  - libpag (3.2.7.45)
   - Masonry (1.1.0)
   - Toast (4.0.0)
 
 DEPENDENCIES:
+  - ffavc
   - libpag
   - Masonry
-  - Toast (~> 4.0.0)
+  - Toast
 
 SPEC REPOS:
   trunk:
+    - ffavc
     - libpag
     - Masonry
     - Toast
 
 SPEC CHECKSUMS:
-  libpag: 85837632714acbf6f45806c5544ea6508f474016
+  ffavc: 04d06e3c85aa03185dbf00cc0a834311e4b2bcaa
+  libpag: 1d910bc8212b6028aac271e3d338d95bc6570192
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
 
-PODFILE CHECKSUM: 8e88b86fd5f3b7000e49b2f116bc3aa2302c8e10
+PODFILE CHECKSUM: 4e06fbcff50e5b1d0ac4a8e0ea8f091c572967fb
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.11.3
