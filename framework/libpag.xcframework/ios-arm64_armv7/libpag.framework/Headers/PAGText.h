@@ -1,43 +1,47 @@
-/////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
 //
-//  Tencent is pleased to support the open source community by making libpag available.
+//  The MIT License (MIT)
 //
-//  Copyright (C) 2021 THL A29 Limited, a Tencent company. All rights reserved.
+//  Copyright (c) 2016-present, Tencent. All rights reserved.
 //
-//  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file
-//  except in compliance with the License. You may obtain a copy of the License at
+//  Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+//  and associated documentation files (the "Software"), to deal in the Software without
+//  restriction, including without limitation the rights to use, copy, modify, merge, publish,
+//  distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the
+//  Software is furnished to do so, subject to the following conditions:
 //
-//      http://www.apache.org/licenses/LICENSE-2.0
+//      The above copyright notice and this permission notice shall be included in all copies or
+//      substantial portions of the Software.
 //
-//  unless required by applicable law or agreed to in writing, software distributed under the
-//  license is distributed on an "as is" basis, without warranties or conditions of any kind,
-//  either express or implied. see the license for the specific language governing permissions
-//  and limitations under the license.
+//  THE SOFTWARE IS PROVIDED *AS IS*, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+//  BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+//  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+//  DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+//  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
-/////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
 
 #import <Foundation/Foundation.h>
 #include "CocoaUtils.h"
-#import "PAG.h"
 
 enum {
-  PAGJustificationLeftJustify = 0,
-  PAGJustificationCenterJustify = 1,
-  PAGJustificationRightJustify = 2,
-  PAGJustificationFullJustifyLastLineLeft = 3,
-  PAGJustificationFullJustifyLastLineRight = 4,
-  PAGJustificationFullJustifyLastLineCenter = 5,
-  PAGJustificationFullJustifyLastLineFull = 6
+    PAGJustificationLeftJustify = 0,
+    PAGJustificationCenterJustify = 1,
+    PAGJustificationRightJustify = 2,
+    PAGJustificationFullJustifyLastLineLeft = 3,
+    PAGJustificationFullJustifyLastLineRight = 4,
+    PAGJustificationFullJustifyLastLineCenter = 5,
+    PAGJustificationFullJustifyLastLineFull = 6
 };
 
 /**
- * The PAGText object stores a value for a TextLayer's Source Text property.
- */
-PAG_API @interface PAGText : NSObject
+  * The PAGText object stores a value for a TextLayer's Source Text property.
+  */
+@interface PAGText : NSObject
 
 /**
- * When true, the text layer shows a fill.
- */
+* When true, the text layer shows a fill.
+*/
 @property(nonatomic, assign) bool applyFill;
 
 /**
@@ -65,17 +69,17 @@ PAG_API @interface PAGText : NSObject
 /**
  * The text layer’s fill color.
  */
-@property(nonatomic, strong) CocoaColor* fillColor;
+@property(nonatomic, strong) CocoaColor *fillColor;
 
 /**
  * A string with the name of the font family.
  **/
-@property(nonatomic, copy) NSString* fontFamily;
+@property(nonatomic, copy) NSString *fontFamily;
 
 /**
  * A string with the style information — e.g., “bold”, “italic”.
  **/
-@property(nonatomic, copy) NSString* fontStyle;
+@property(nonatomic, copy) NSString *fontStyle;
 
 /**
  * The text layer’s font size in pixels.
@@ -85,7 +89,7 @@ PAG_API @interface PAGText : NSObject
 /**
  * The text layer’s stroke color.
  */
-@property(nonatomic, strong) CocoaColor* strokeColor;
+@property(nonatomic, strong) CocoaColor *strokeColor;
 
 /**
  * Indicates the rendering order for the fill and stroke of a text layer.
@@ -100,12 +104,11 @@ PAG_API @interface PAGText : NSObject
 /**
  * The text layer’s Source Text value.
  */
-@property(nonatomic, copy) NSString* text;
+@property(nonatomic, copy) NSString *text;
 
 /**
- * The paragraph justification for the text layer. Such as : PAGJustificationLeftJustify,
- * PAGJustificationCenterJustify...
- */
+* The paragraph justification for the text layer. Such as : PAGJustificationLeftJustify, PAGJustificationCenterJustify...
+*/
 @property(nonatomic, assign) uint8_t justification;
 
 /**
@@ -121,7 +124,7 @@ PAG_API @interface PAGText : NSObject
 /**
  * The text layer’s background color.
  */
-@property(nonatomic, strong) CocoaColor* backgroundColor;
+@property(nonatomic, strong) CocoaColor *backgroundColor;
 
 /**
  * The text layer’s background alpha. 0 = 100% transparent, 255 = 100% opaque.

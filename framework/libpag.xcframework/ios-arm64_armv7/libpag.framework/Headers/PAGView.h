@@ -1,20 +1,25 @@
-/////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
 //
-//  Tencent is pleased to support the open source community by making libpag available.
+//  The MIT License (MIT)
 //
-//  Copyright (C) 2021 THL A29 Limited, a Tencent company. All rights reserved.
+//  Copyright (c) 2016-present, Tencent. All rights reserved.
 //
-//  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file
-//  except in compliance with the License. You may obtain a copy of the License at
+//  Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+//  and associated documentation files (the "Software"), to deal in the Software without
+//  restriction, including without limitation the rights to use, copy, modify, merge, publish,
+//  distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the
+//  Software is furnished to do so, subject to the following conditions:
 //
-//      http://www.apache.org/licenses/LICENSE-2.0
+//      The above copyright notice and this permission notice shall be included in all copies or
+//      substantial portions of the Software.
 //
-//  unless required by applicable law or agreed to in writing, software distributed under the
-//  license is distributed on an "as is" basis, without warranties or conditions of any kind,
-//  either express or implied. see the license for the specific language governing permissions
-//  and limitations under the license.
+//  THE SOFTWARE IS PROVIDED *AS IS*, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+//  BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+//  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+//  DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+//  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
-/////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
 
 #import "PAGFile.h"
 #import "PAGImage.h"
@@ -27,22 +32,22 @@
 /**
  * Notifies the start of the animation.
  */
-- (void)onAnimationStart:(PAGView*)pagView;
+- (void)onAnimationStart:(PAGView *)pagView;
 
 /**
  * Notifies the end of the animation.
  */
-- (void)onAnimationEnd:(PAGView*)pagView;
+- (void)onAnimationEnd:(PAGView *)pagView;
 
 /**
  * Notifies the cancellation of the animation.
  */
-- (void)onAnimationCancel:(PAGView*)pagView;
+- (void)onAnimationCancel:(PAGView *)pagView;
 
 /**
  * Notifies the repetition of the animation.
  */
-- (void)onAnimationRepeat:(PAGView*)pagView;
+- (void)onAnimationRepeat:(PAGView *)pagView;
 
 /**
  * Notifies the start of the animation.
@@ -66,23 +71,22 @@
 
 @end
 
-PAG_API @interface PAGView : UIView
+@interface PAGView : UIView
 
 /**
  * Default is NO.
  */
-@property(nonatomic) BOOL sync;
+@property (nonatomic) BOOL sync;
 
 /**
- * Adds a listener to the set of listeners that are sent events through the life of an animation,
- * such as start, repeat, and end.
+ * Adds a listener to the set of listeners that are sent events through the life of an animation, such as start, repeat, and end.
  */
-- (void)addListener:(id<PAGViewListener>)listener;
+- (void)addListener:(id <PAGViewListener>)listener;
 
 /**
  * Removes a listener from the set listening to this animation.
  */
-- (void)removeListener:(id<PAGViewListener>)listener;
+- (void)removeListener:(id <PAGViewListener>)listener;
 
 /**
  * Indicates whether or not this pag view is playing.
@@ -100,8 +104,8 @@ PAG_API @interface PAGView : UIView
 - (void)stop;
 
 /**
- * Set the number of times the animation will repeat. The default is 1, which means the animation
- * will play only once. 0 means the animation will play infinity times.
+ * Set the number of times the animation will repeat. The default is 1, which means the animation will play only once.
+ * 0 means the animation will play infinity times.
  */
 - (void)setRepeatCount:(int)repeatCount;
 
@@ -111,10 +115,9 @@ PAG_API @interface PAGView : UIView
 - (NSString*)getPath;
 
 /**
- * Load a pag file from the specified path, returns false if the file does not exist or the data is
- * not a pag file. Note: All PAGFiles loaded by the same path share the same internal cache. The
- * internal cache is alive until all PAGFiles are released. Use '[PAGFile Load:size:]' instead if
- * you don't want to load a PAGFile from the internal caches.
+ * Load a pag file from the specified path, returns false if the file does not exist or the data is not a pag file.
+ * Note: All PAGFiles loaded by the same path share the same internal cache. The internal cache is alive until all
+ * PAGFiles are released. Use '[PAGFile Load:size:]' instead if you don't want to load a PAGFile from the internal caches.
  */
 - (BOOL)setPath:(NSString*)filePath;
 
@@ -125,8 +128,7 @@ PAG_API @interface PAGView : UIView
 
 /**
  * Sets a new PAGComposition for PAGView to render as content.
- * Note: If the composition is already added to another PAGView, it will be removed from the
- * previous PAGView.
+ * Note: If the composition is already added to another PAGView, it will be removed from the previous PAGView.
  */
 - (void)setComposition:(PAGComposition*)newComposition;
 
@@ -141,10 +143,10 @@ PAG_API @interface PAGView : UIView
 - (void)setVideoEnabled:(BOOL)enable;
 
 /**
- * If set to true, PAG renderer caches an internal bitmap representation of the static content for
- * each layer. This caching can increase performance for layers that contain complex vector content.
- * The execution speed can be significantly faster depending on the complexity of the content, but
- * it requires extra graphics memory. The default value is true.
+ * If set to true, PAG renderer caches an internal bitmap representation of the static content for each layer.
+ * This caching can increase performance for layers that contain complex vector content. The execution speed can
+ * be significantly faster depending on the complexity of the content, but it requires extra graphics memory.
+ * The default value is true.
  */
 - (BOOL)cacheEnabled;
 
@@ -154,9 +156,9 @@ PAG_API @interface PAGView : UIView
 - (void)setCacheEnabled:(BOOL)value;
 
 /**
- * This value defines the scale factor for internal graphics caches, ranges from 0.0 to 1.0. The
- * scale factors less than 1.0 may result in blurred output, but it can reduce the usage of graphics
- * memory which leads to better performance. The default value is 1.0.
+ * This value defines the scale factor for internal graphics caches, ranges from 0.0 to 1.0. The scale factors less than
+ * 1.0 may result in blurred output, but it can reduce the usage of graphics memory which leads to better performance.
+ * The default value is 1.0.
  */
 - (float)cacheScale;
 
@@ -166,9 +168,8 @@ PAG_API @interface PAGView : UIView
 - (void)setCacheScale:(float)value;
 
 /**
- * The maximum frame rate for rendering. If set to a value less than the actual frame rate from
- * PAGFile, it drops frames but increases performance. Otherwise, it has no effect. The default
- * value is 60.
+ * The maximum frame rate for rendering. If set to a value less than the actual frame rate from PAGFile, it drops
+ * frames but increases performance. Otherwise, it has no effect. The default value is 60.
  */
 - (float)maxFrameRate;
 
@@ -205,8 +206,8 @@ PAG_API @interface PAGView : UIView
 - (int64_t)duration;
 
 /**
- * Returns the current progress of play position, the value is from 0.0 to 1.0. It is applied only
- * when the composition is not null.
+ * Returns the current progress of play position, the value is from 0.0 to 1.0. It is applied only when the composition
+ * is not null.
  */
 - (double)getProgress;
 
@@ -223,8 +224,7 @@ PAG_API @interface PAGView : UIView
 
 /**
  * Returns an array of layers that lie under the specified point.
- * The point is in pixels, convert dp to pixel by multiply [UIScreen mainScreen].scale, eg: point.x
- * * scale,point.y* scale.
+ * The point is in pixels, convert dp to pixel by multiply [UIScreen mainScreen].scale, eg: point.x * scale,point.y* scale.
  */
 - (NSArray<PAGLayer*>*)getLayersUnderPoint:(CGPoint)point;
 
@@ -232,4 +232,43 @@ PAG_API @interface PAGView : UIView
  * Free the cache created by the pag view immediately. Can be called to reduce memory pressure.
  */
 - (void)freeCache;
+
+/**
+ * [Deprecated](Please use 'getComposition' instead) Returns the current PAGFile object.
+ */
+- (PAGFile*)getFile DEPRECATED_MSG_ATTRIBUTE("Please use 'getComposition' instead");
+
+/**
+ * [Deprecated](Please use 'setPath' or 'setComposition' instead) Set the PAGFile object for PAGView to render.
+ */
+- (void)setFile:(PAGFile*)newFile DEPRECATED_MSG_ATTRIBUTE("Please use 'setComposition' instead");
+
+/**
+ * [Deprecated](Please use 'getComposition' instead) Returns get the root PAGComposition object.
+ */
+- (PAGComposition*)getRootComposition DEPRECATED_MSG_ATTRIBUTE("Please use 'getComposition' instead");
+
+/**
+ * [Deprecated](Please use 'flush' instead)
+ * Call this method to render current position immediately. If the play() method is already
+ * called, there is no need to call it. Returns true if the content has changed.
+ * @param force Indicates whether the PAGView should redraw all content by force.
+ */
+- (BOOL)flush:(BOOL)force DEPRECATED_MSG_ATTRIBUTE("Please use 'flush' instead");
+
+/**
+ * [Deprecated](Please use '[PAGFile replaceText]'instead)
+ * Update the text data of the specified index. The index ranges from 0 to PAGFile.numTexts - 1. Passing in null
+ * for the data parameter will reset it to the default text data.
+ */
+- (void)setTextData:(int)index data:(PAGText*)value DEPRECATED_MSG_ATTRIBUTE("Please use '[PAGFile replaceText]'instead");
+
+/**
+ * [Deprecated](Please use '[PAGFile replaceImage]'instead)
+ * Replace the image data of the specified index. The index ranges from 0 to PAGFile.numImages - 1. Passing in null
+ * for the image parameter will reset it to the default image data.
+ */
+- (void)replaceImage:(int)index data:(PAGImage*)value DEPRECATED_MSG_ATTRIBUTE("Please use '[PAGFile replaceImage]'instead");
+
 @end
+

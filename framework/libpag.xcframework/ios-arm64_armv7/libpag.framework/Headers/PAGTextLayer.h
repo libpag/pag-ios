@@ -1,48 +1,53 @@
-/////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
 //
-//  Tencent is pleased to support the open source community by making libpag available.
+//  The MIT License (MIT)
 //
-//  Copyright (C) 2021 THL A29 Limited, a Tencent company. All rights reserved.
+//  Copyright (c) 2016-present, Tencent. All rights reserved.
 //
-//  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file
-//  except in compliance with the License. You may obtain a copy of the License at
+//  Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+//  and associated documentation files (the "Software"), to deal in the Software without
+//  restriction, including without limitation the rights to use, copy, modify, merge, publish,
+//  distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the
+//  Software is furnished to do so, subject to the following conditions:
 //
-//      http://www.apache.org/licenses/LICENSE-2.0
+//      The above copyright notice and this permission notice shall be included in all copies or
+//      substantial portions of the Software.
 //
-//  unless required by applicable law or agreed to in writing, software distributed under the
-//  license is distributed on an "as is" basis, without warranties or conditions of any kind,
-//  either express or implied. see the license for the specific language governing permissions
-//  and limitations under the license.
+//  THE SOFTWARE IS PROVIDED *AS IS*, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+//  BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+//  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+//  DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+//  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
-/////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
 
 #import <Foundation/Foundation.h>
-#include "CocoaUtils.h"
 #import "PAGLayer.h"
+#include "CocoaUtils.h"
 
 @class PAGFont;
 
-PAG_API @interface PAGTextLayer : PAGLayer
+@interface PAGTextLayer : PAGLayer
 
 /**
  * Returns the TextLayer’s fill color.
  */
-- (CocoaColor*)fillColor;
+- (CocoaColor *)fillColor;
 
 /**
  * Sets the TextLayer’s fill color.
  */
-- (void)setFillColor:(CocoaColor*)color;
+- (void)setFillColor:(CocoaColor *)color;
 
 /**
  * Returns the TextLayer's font.
  */
-- (PAGFont*)font;
+- (PAGFont *)font;
 
 /**
  * Sets the TextLayer's font.
  */
-- (void)setFont:(PAGFont*)font;
+- (void)setFont:(PAGFont *)font;
 
 /**
  * Returns the TextLayer's font size.
@@ -57,26 +62,21 @@ PAG_API @interface PAGTextLayer : PAGLayer
 /**
  * Returns the TextLayer's stroke color.
  */
-- (CocoaColor*)strokeColor;
+- (CocoaColor *)strokeColor;
 
 /**
  * Sets the TextLayer's stroke color.
  */
-- (void)setStrokeColor:(CocoaColor*)color;
+- (void)setStrokeColor:(CocoaColor *)color;
 
 /**
  * Returns the TextLayer's text.
  */
-- (NSString*)text;
+- (NSString *)text;
 
 /**
  * Set the TextLayer's text.
  */
-- (void)setText:(NSString*)text;
-
-/**
- * Reset the text layer to its default text data.
- */
-- (void)reset;
+- (void)setText:(NSString *)text;
 
 @end

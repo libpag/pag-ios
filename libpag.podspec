@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name     = 'libpag'
-  s.version  = '4.0.5.5'
+  s.version  = '3.2.7.48'
   s.ios.deployment_target   = '9.0'
   s.summary  = 'libpag SDK'
   s.homepage = 'https://github.com/libpag/libpag-ios'
