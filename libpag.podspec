@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author = {'libpag' => 'libpag@tencent.com'}
   s.ios.frameworks = ['UIKit', 'VideoToolbox', 'CoreMedia']
-  s.vendored_frameworks = 'framework/*.xcframework'
+  s.vendored_frameworks = 'framework/libpag.xcframework'
   s.pod_target_xcconfig = { 
    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' 
   }
