@@ -1,6 +1,6 @@
 PODS:
   - ffavc (1.0.1)
-  - libpag (3.2.7.45)
+  - libpag (4.0.5.11)
   - Masonry (1.1.0)
   - Toast (4.0.0)
 
@@ -19,7 +19,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   ffavc: 04d06e3c85aa03185dbf00cc0a834311e4b2bcaa
-  libpag: 1d910bc8212b6028aac271e3d338d95bc6570192
+  libpag: bbec0035bb2c18f6d30b6478c1a1e3cbbc26c38d
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
 

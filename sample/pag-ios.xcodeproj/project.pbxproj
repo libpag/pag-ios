@@ -29,6 +29,27 @@
 		4DF4880B2224209A0001C955 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF488062224209A0001C955 /* MainView.m */; };
 		4DF48810222421350001C955 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF4880F222421350001C955 /* BaseViewController.m */; };
 		568FDA9E923C0CBE6C8838F2 /* libPods-pag-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 073C8C267BF37171E713330B /* libPods-pag-ios.a */; };
+		680C6FC42854D90B00F64543 /* RenderIntervalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 680C6FC32854D90B00F64543 /* RenderIntervalViewController.m */; };
+		680C6FD92854E6CC00F64543 /* 10.pag in Resources */ = {isa = PBXBuildFile; fileRef = 680C6FC52854E6CB00F64543 /* 10.pag */; };
+		680C6FDA2854E6CC00F64543 /* 18.pag in Resources */ = {isa = PBXBuildFile; fileRef = 680C6FC62854E6CB00F64543 /* 18.pag */; };
+		680C6FDB2854E6CC00F64543 /* 2.pag in Resources */ = {isa = PBXBuildFile; fileRef = 680C6FC72854E6CB00F64543 /* 2.pag */; };
+		680C6FDC2854E6CC00F64543 /* 11.pag in Resources */ = {isa = PBXBuildFile; fileRef = 680C6FC82854E6CB00F64543 /* 11.pag */; };
+		680C6FDD2854E6CC00F64543 /* 13.pag in Resources */ = {isa = PBXBuildFile; fileRef = 680C6FC92854E6CB00F64543 /* 13.pag */; };
+		680C6FDE2854E6CC00F64543 /* 9.pag in Resources */ = {isa = PBXBuildFile; fileRef = 680C6FCA2854E6CB00F64543 /* 9.pag */; };
+		680C6FDF2854E6CC00F64543 /* 4.pag in Resources */ = {isa = PBXBuildFile; fileRef = 680C6FCB2854E6CB00F64543 /* 4.pag */; };
+		680C6FE02854E6CC00F64543 /* 14.pag in Resources */ = {isa = PBXBuildFile; fileRef = 680C6FCC2854E6CB00F64543 /* 14.pag */; };
+		680C6FE12854E6CC00F64543 /* 15.pag in Resources */ = {isa = PBXBuildFile; fileRef = 680C6FCD2854E6CB00F64543 /* 15.pag */; };
+		680C6FE22854E6CC00F64543 /* 16.pag in Resources */ = {isa = PBXBuildFile; fileRef = 680C6FCE2854E6CB00F64543 /* 16.pag */; };
+		680C6FE32854E6CC00F64543 /* 8.pag in Resources */ = {isa = PBXBuildFile; fileRef = 680C6FCF2854E6CB00F64543 /* 8.pag */; };
+		680C6FE42854E6CC00F64543 /* 12.pag in Resources */ = {isa = PBXBuildFile; fileRef = 680C6FD02854E6CB00F64543 /* 12.pag */; };
+		680C6FE52854E6CC00F64543 /* 19.pag in Resources */ = {isa = PBXBuildFile; fileRef = 680C6FD12854E6CB00F64543 /* 19.pag */; };
+		680C6FE62854E6CC00F64543 /* 17.pag in Resources */ = {isa = PBXBuildFile; fileRef = 680C6FD22854E6CB00F64543 /* 17.pag */; };
+		680C6FE72854E6CC00F64543 /* 7.pag in Resources */ = {isa = PBXBuildFile; fileRef = 680C6FD32854E6CB00F64543 /* 7.pag */; };
+		680C6FE82854E6CC00F64543 /* 5.pag in Resources */ = {isa = PBXBuildFile; fileRef = 680C6FD42854E6CB00F64543 /* 5.pag */; };
+		680C6FE92854E6CC00F64543 /* 6.pag in Resources */ = {isa = PBXBuildFile; fileRef = 680C6FD52854E6CB00F64543 /* 6.pag */; };
+		680C6FEA2854E6CC00F64543 /* 3.pag in Resources */ = {isa = PBXBuildFile; fileRef = 680C6FD62854E6CB00F64543 /* 3.pag */; };
+		680C6FEB2854E6CC00F64543 /* 1.pag in Resources */ = {isa = PBXBuildFile; fileRef = 680C6FD72854E6CB00F64543 /* 1.pag */; };
+		680C6FEC2854E6CC00F64543 /* 0.pag in Resources */ = {isa = PBXBuildFile; fileRef = 680C6FD82854E6CC00F64543 /* 0.pag */; };
 		683BB4F125CBB4FD009719B5 /* jisha.pag in Resources */ = {isa = PBXBuildFile; fileRef = 683BB4F025CBB4FD009719B5 /* jisha.pag */; };
 		683BB4F325CBB657009719B5 /* game.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 683BB4F225CBB657009719B5 /* game.mp4 */; };
 		852DA6F3230E681900D36CB2 /* RegisterSoftwareDecoderViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 852DA6F2230E681900D36CB2 /* RegisterSoftwareDecoderViewController.mm */; };
@@ -79,6 +100,28 @@
 		4DF488052224209A0001C955 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
 		4DF488062224209A0001C955 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
 		4DF4880F222421350001C955 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		680C6FC22854D90B00F64543 /* RenderIntervalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RenderIntervalViewController.h; sourceTree = "<group>"; };
+		680C6FC32854D90B00F64543 /* RenderIntervalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RenderIntervalViewController.m; sourceTree = "<group>"; };
+		680C6FC52854E6CB00F64543 /* 10.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = 10.pag; sourceTree = "<group>"; };
+		680C6FC62854E6CB00F64543 /* 18.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = 18.pag; sourceTree = "<group>"; };
+		680C6FC72854E6CB00F64543 /* 2.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.pag; sourceTree = "<group>"; };
+		680C6FC82854E6CB00F64543 /* 11.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = 11.pag; sourceTree = "<group>"; };
+		680C6FC92854E6CB00F64543 /* 13.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = 13.pag; sourceTree = "<group>"; };
+		680C6FCA2854E6CB00F64543 /* 9.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = 9.pag; sourceTree = "<group>"; };
+		680C6FCB2854E6CB00F64543 /* 4.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = 4.pag; sourceTree = "<group>"; };
+		680C6FCC2854E6CB00F64543 /* 14.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = 14.pag; sourceTree = "<group>"; };
+		680C6FCD2854E6CB00F64543 /* 15.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = 15.pag; sourceTree = "<group>"; };
+		680C6FCE2854E6CB00F64543 /* 16.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = 16.pag; sourceTree = "<group>"; };
+		680C6FCF2854E6CB00F64543 /* 8.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = 8.pag; sourceTree = "<group>"; };
+		680C6FD02854E6CB00F64543 /* 12.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = 12.pag; sourceTree = "<group>"; };
+		680C6FD12854E6CB00F64543 /* 19.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = 19.pag; sourceTree = "<group>"; };
+		680C6FD22854E6CB00F64543 /* 17.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = 17.pag; sourceTree = "<group>"; };
+		680C6FD32854E6CB00F64543 /* 7.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = 7.pag; sourceTree = "<group>"; };
+		680C6FD42854E6CB00F64543 /* 5.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = 5.pag; sourceTree = "<group>"; };
+		680C6FD52854E6CB00F64543 /* 6.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = 6.pag; sourceTree = "<group>"; };
+		680C6FD62854E6CB00F64543 /* 3.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.pag; sourceTree = "<group>"; };
+		680C6FD72854E6CB00F64543 /* 1.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.pag; sourceTree = "<group>"; };
+		680C6FD82854E6CC00F64543 /* 0.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = 0.pag; sourceTree = "<group>"; };
 		683BB4F025CBB4FD009719B5 /* jisha.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = jisha.pag; sourceTree = "<group>"; };
 		683BB4F225CBB657009719B5 /* game.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = game.mp4; sourceTree = "<group>"; };
 		852DA6F1230E681900D36CB2 /* RegisterSoftwareDecoderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterSoftwareDecoderViewController.h; sourceTree = "<group>"; };
@@ -173,6 +216,26 @@
 		4DF487FE2224209A0001C955 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				680C6FD82854E6CC00F64543 /* 0.pag */,
+				680C6FD72854E6CB00F64543 /* 1.pag */,
+				680C6FC72854E6CB00F64543 /* 2.pag */,
+				680C6FD62854E6CB00F64543 /* 3.pag */,
+				680C6FCB2854E6CB00F64543 /* 4.pag */,
+				680C6FD42854E6CB00F64543 /* 5.pag */,
+				680C6FD52854E6CB00F64543 /* 6.pag */,
+				680C6FD32854E6CB00F64543 /* 7.pag */,
+				680C6FCF2854E6CB00F64543 /* 8.pag */,
+				680C6FCA2854E6CB00F64543 /* 9.pag */,
+				680C6FC52854E6CB00F64543 /* 10.pag */,
+				680C6FC82854E6CB00F64543 /* 11.pag */,
+				680C6FD02854E6CB00F64543 /* 12.pag */,
+				680C6FC92854E6CB00F64543 /* 13.pag */,
+				680C6FCC2854E6CB00F64543 /* 14.pag */,
+				680C6FCD2854E6CB00F64543 /* 15.pag */,
+				680C6FCE2854E6CB00F64543 /* 16.pag */,
+				680C6FD22854E6CB00F64543 /* 17.pag */,
+				680C6FC62854E6CB00F64543 /* 18.pag */,
+				680C6FD12854E6CB00F64543 /* 19.pag */,
 				683BB4F025CBB4FD009719B5 /* jisha.pag */,
 				683BB4F225CBB657009719B5 /* game.mp4 */,
 				4D528EA825CADB3C003E7DAF /* small.pag */,
@@ -221,6 +284,8 @@
 				4D528EAE25CAE10F003E7DAF /* BigStickerVideoViewController.m */,
 				E67C409A25F104A70019DD2D /* pag-ios-Bridging-Header.h */,
 				E67C409F25F105390019DD2D /* MoveAndRotateLayerViewController.swift */,
+				680C6FC22854D90B00F64543 /* RenderIntervalViewController.h */,
+				680C6FC32854D90B00F64543 /* RenderIntervalViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -306,20 +371,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				680C6FEB2854E6CC00F64543 /* 1.pag in Resources */,
+				680C6FDE2854E6CC00F64543 /* 9.pag in Resources */,
+				680C6FDC2854E6CC00F64543 /* 11.pag in Resources */,
 				85F4FBB023C5F70400218EBD /* test.pag in Resources */,
 				683BB4F325CBB657009719B5 /* game.mp4 in Resources */,
+				680C6FE62854E6CC00F64543 /* 17.pag in Resources */,
 				4D5D389622675BE9006729E8 /* particle_video.pag in Resources */,
 				4DF487E722241F7B0001C955 /* LaunchScreen.storyboard in Resources */,
 				4DF488082224209A0001C955 /* test.png in Resources */,
+				680C6FEC2854E6CC00F64543 /* 0.pag in Resources */,
+				680C6FE32854E6CC00F64543 /* 8.pag in Resources */,
+				680C6FE12854E6CC00F64543 /* 15.pag in Resources */,
+				680C6FDA2854E6CC00F64543 /* 18.pag in Resources */,
 				85F4FBBD23C60E3200218EBD /* data-TimeStretch.pag in Resources */,
 				4DF488072224209A0001C955 /* replacement.pag in Resources */,
 				4D528EA925CADB3C003E7DAF /* small.pag in Resources */,
+				680C6FE42854E6CC00F64543 /* 12.pag in Resources */,
 				4D5D389822675BE9006729E8 /* data_video.pag in Resources */,
+				680C6FDF2854E6CC00F64543 /* 4.pag in Resources */,
 				4DF487E422241F7B0001C955 /* Assets.xcassets in Resources */,
+				680C6FE82854E6CC00F64543 /* 5.pag in Resources */,
+				680C6FDB2854E6CC00F64543 /* 2.pag in Resources */,
+				680C6FD92854E6CC00F64543 /* 10.pag in Resources */,
+				680C6FE52854E6CC00F64543 /* 19.pag in Resources */,
+				680C6FDD2854E6CC00F64543 /* 13.pag in Resources */,
 				4DF487E222241F7A0001C955 /* Main.storyboard in Resources */,
+				680C6FE72854E6CC00F64543 /* 7.pag in Resources */,
+				680C6FE22854E6CC00F64543 /* 16.pag in Resources */,
 				4D5D389722675BE9006729E8 /* moonlight.pag in Resources */,
+				680C6FE92854E6CC00F64543 /* 6.pag in Resources */,
 				683BB4F125CBB4FD009719B5 /* jisha.pag in Resources */,
 				8568CBF2230D6F4C0007B2D7 /* test2.pag in Resources */,
+				680C6FEA2854E6CC00F64543 /* 3.pag in Resources */,
+				680C6FE02854E6CC00F64543 /* 14.pag in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +462,7 @@
 				4D528E7625CA6219003E7DAF /* VideoViewController.m in Sources */,
 				4D528E8925CA673C003E7DAF /* CustomVideoCompositionInstruction.m in Sources */,
 				4DF4880B2224209A0001C955 /* MainView.m in Sources */,
+				680C6FC42854D90B00F64543 /* RenderIntervalViewController.m in Sources */,
 				4DF487EA22241F7B0001C955 /* main.m in Sources */,
 				852DA709230E6A5600D36CB2 /* FFmpegDecoder.cpp in Sources */,
 				4D528EAF25CAE10F003E7DAF /* BigStickerVideoViewController.m in Sources */,

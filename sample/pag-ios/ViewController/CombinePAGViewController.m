@@ -27,30 +27,28 @@
     return nil;
 }
 
+- (PAGFile*)getPAGFile:(int)row clume:(int)colume name:(NSString*)name itemWidth:(float)itemWidth itemHeight:(float)itemHeight {
+    PAGFile* pagFile = [PAGFile Load:[[NSBundle mainBundle] pathForResource:name ofType:@"pag"]];
+    if (pagFile) {
+        float scaleX = itemWidth * 1.0f / [pagFile width];
+        CGAffineTransform transform = CGAffineTransformMakeScale(scaleX, scaleX);
+        CGAffineTransform tranflate = CGAffineTransformMakeTranslation(itemWidth * colume, row * itemHeight + 150);
+        transform = CGAffineTransformConcat(transform, tranflate);
+        [pagFile setMatrix:transform];
+        [pagFile setDuration:10000000];
+    }
+    return pagFile;
+}
+
 /// 3.0组装接口Demo，用于在一个surface中展示不同的file
 - (PAGComposition *)makeComposition {
     PAGComposition* compostion = [PAGComposition Make:self.view.bounds.size];
-    ///data-TimeStretch是一个特殊pag，pag中标记了mark，使得在duration变化后可以填充满整个时长
-    ///mark具体的数据可以看文档 https://pag.io/docs/time-stretch.html 如何使用时间伸缩插件
-    PAGFile* file = [PAGFile Load:[[NSBundle mainBundle] pathForResource:@"data-TimeStretch" ofType:@"pag"]];
-    [file replaceImage:0 data:[PAGImage FromPath:[[NSBundle mainBundle] pathForResource:@"test" ofType:@"png"]]];
-    CGRect bounds = CGRectMake(0, 0, file.width, file.height);
-    //pag目前只支持通过matrix控制Layer的位置
-    [file setMatrix:[self.class transformFromRect:bounds toRect:CGRectMake(100, 0, 200, 400)]];
-    //3.0接口设置时长，将时长扩大
-    [file setDuration:10000000];
-    //3.0接口设置开始时间
-    [file setStartTime:3000000];
-    //组装layer
-    [compostion addLayer:file];
-    
-    file = [PAGFile Load:[[NSBundle mainBundle] pathForResource:@"data_video" ofType:@"pag"]];
-    bounds = CGRectMake(0, 0, file.width, file.height);
-    //普通pag设置时长，在超过最后一帧后会定格在最后一帧
-    [file setDuration:10000000];
-    [file setMatrix:[self.class transformFromRect:bounds toRect:self.view.bounds]];
-    //组装layer
-    [compostion addLayer:file atIndex:0];
+    float itemWidth = self.view.bounds.size.width / 5;
+    float itemHeight = 100;
+    for (int i = 0; i < 20; i++) {
+        PAGFile* pagFile = [self getPAGFile:i / 5 clume:i % 5 name:[NSString stringWithFormat:@"%d", i] itemWidth:itemWidth itemHeight:itemHeight];
+        [compostion addLayer:pagFile];
+    }
     return compostion;
 }
 
