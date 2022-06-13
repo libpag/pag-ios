@@ -1,19 +1,19 @@
 //
-//  CombinePAGViewController.m
+//  RenderMultiplePAGFilesViewController.m
 //  pag-ios
 //
 //  Created by partyhuang(黄庆然) on 2019/12/30.
 //  Copyright © 2019 kevingpqi. All rights reserved.
 //
 
-#import "CombinePAGViewController.h"
+#import "RenderMultiplePAGFilesViewController.h"
 #import <libpag/PAGPlayer.h>
 
-@interface CombinePAGViewController ()
+@interface RenderMultiplePAGFilesViewController ()
 
 @end
 
-@implementation CombinePAGViewController
+@implementation RenderMultiplePAGFilesViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

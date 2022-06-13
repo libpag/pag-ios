@@ -1,5 +1,5 @@
 //
-//  CombinePAGViewController.h
+//  RenderMultiplePAGFilesViewController.h
 //  pag-ios
 //
 //  Created by partyhuang(黄庆然) on 2019/12/30.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CombinePAGViewController : BaseViewController
+@interface RenderMultiplePAGFilesViewController : BaseViewController
 
 @end
 

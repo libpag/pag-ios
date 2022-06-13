@@ -58,7 +58,7 @@
 		8568CBEF230D634C0007B2D7 /* ReplaceTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8568CBEE230D634C0007B2D7 /* ReplaceTextViewController.m */; };
 		8568CBF2230D6F4C0007B2D7 /* test2.pag in Resources */ = {isa = PBXBuildFile; fileRef = 8568CBF1230D6F4C0007B2D7 /* test2.pag */; };
 		8568CBF5230D796C0007B2D7 /* ReplaceImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8568CBF4230D796C0007B2D7 /* ReplaceImageViewController.m */; };
-		85F1369223B9E2C80059D5C0 /* CombinePAGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F1369123B9E2C80059D5C0 /* CombinePAGViewController.m */; };
+		85F1369223B9E2C80059D5C0 /* RenderMultiplePAGFilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F1369123B9E2C80059D5C0 /* RenderMultiplePAGFilesViewController.m */; };
 		85F4FBAA23C5769C00218EBD /* PixelBufferDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F4FBA923C5769C00218EBD /* PixelBufferDemoViewController.m */; };
 		85F4FBB023C5F70400218EBD /* test.pag in Resources */ = {isa = PBXBuildFile; fileRef = 85F4FBAF23C5F70400218EBD /* test.pag */; };
 		85F4FBBD23C60E3200218EBD /* data-TimeStretch.pag in Resources */ = {isa = PBXBuildFile; fileRef = 85F4FBBC23C60E3200218EBD /* data-TimeStretch.pag */; };
@@ -135,8 +135,8 @@
 		8568CBF1230D6F4C0007B2D7 /* test2.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = test2.pag; sourceTree = "<group>"; };
 		8568CBF3230D796C0007B2D7 /* ReplaceImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReplaceImageViewController.h; sourceTree = "<group>"; };
 		8568CBF4230D796C0007B2D7 /* ReplaceImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReplaceImageViewController.m; sourceTree = "<group>"; };
-		85F1369023B9E2C80059D5C0 /* CombinePAGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CombinePAGViewController.h; sourceTree = "<group>"; };
-		85F1369123B9E2C80059D5C0 /* CombinePAGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CombinePAGViewController.m; sourceTree = "<group>"; };
+		85F1369023B9E2C80059D5C0 /* RenderMultiplePAGFilesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RenderMultiplePAGFilesViewController.h; sourceTree = "<group>"; };
+		85F1369123B9E2C80059D5C0 /* RenderMultiplePAGFilesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RenderMultiplePAGFilesViewController.m; sourceTree = "<group>"; };
 		85F4FBA823C5769C00218EBD /* PixelBufferDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PixelBufferDemoViewController.h; sourceTree = "<group>"; };
 		85F4FBA923C5769C00218EBD /* PixelBufferDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PixelBufferDemoViewController.m; sourceTree = "<group>"; };
 		85F4FBAF23C5F70400218EBD /* test.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.pag; sourceTree = "<group>"; };
@@ -274,8 +274,8 @@
 				85F4FBA923C5769C00218EBD /* PixelBufferDemoViewController.m */,
 				852DA6F1230E681900D36CB2 /* RegisterSoftwareDecoderViewController.h */,
 				852DA6F2230E681900D36CB2 /* RegisterSoftwareDecoderViewController.mm */,
-				85F1369023B9E2C80059D5C0 /* CombinePAGViewController.h */,
-				85F1369123B9E2C80059D5C0 /* CombinePAGViewController.m */,
+				85F1369023B9E2C80059D5C0 /* RenderMultiplePAGFilesViewController.h */,
+				85F1369123B9E2C80059D5C0 /* RenderMultiplePAGFilesViewController.m */,
 				4D528E7425CA6219003E7DAF /* VideoViewController.h */,
 				4D528E7525CA6219003E7DAF /* VideoViewController.m */,
 				4D528EAA25CAE0E5003E7DAF /* SmallStickerVideoViewController.h */,
@@ -467,7 +467,7 @@
 				852DA709230E6A5600D36CB2 /* FFmpegDecoder.cpp in Sources */,
 				4D528EAF25CAE10F003E7DAF /* BigStickerVideoViewController.m in Sources */,
 				85F4FBAA23C5769C00218EBD /* PixelBufferDemoViewController.m in Sources */,
-				85F1369223B9E2C80059D5C0 /* CombinePAGViewController.m in Sources */,
+				85F1369223B9E2C80059D5C0 /* RenderMultiplePAGFilesViewController.m in Sources */,
 				4D528EAC25CAE0E5003E7DAF /* SmallStickerVideoViewController.m in Sources */,
 				E67C40A025F105390019DD2D /* MoveAndRotateLayerViewController.swift in Sources */,
 				8568CBF5230D796C0007B2D7 /* ReplaceImageViewController.m in Sources */,

@@ -65,7 +65,7 @@
     NSString* path = [[NSBundle mainBundle] pathForResource:@"replacement" ofType:@"pag"];
     self.file = [PAGFile Load:path];
     //player是libpag3.0中的控制器，用于播放进度控制，与surface为一一对应的关系。
-    //render之中的功能转移到了PAGPlayer和PAGFile中。如果需要绘制多个File的内容，可以使用PAGComposition组装PAGFile。具体请看{@link CombinePAGViewController}
+    //render之中的功能转移到了PAGPlayer和PAGFile中。如果需要绘制多个File的内容，可以使用PAGComposition组装PAGFile。具体请看{@link RenderMultiplePAGFilesViewController}
     self.player = [[PAGPlayer alloc] init];
     //surface是libpag中的工作台，用于提供渲染环境
     self.surface = [PAGSurface MakeFromGPU:self.view.bounds.size];
