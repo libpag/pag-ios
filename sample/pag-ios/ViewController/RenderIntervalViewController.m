@@ -8,6 +8,7 @@
 
 #import "RenderIntervalViewController.h"
 #import <libpag/PAGComposition.h>
+#import <libpag/PAGFile.h>
 
 @interface RenderIntervalViewController ()
 
@@ -25,10 +26,11 @@
     }
     PAGComposition* pagComposition = [PAGComposition Make:CGSizeMake([pagFile width], [pagFile height])];
     // 播放1~3s
+    [pagFile seTimeStretchMode:PAGTimeStretchModeNone];
     [pagFile setStartTime:-1000000];
     [pagFile setDuration:3000000];
     [pagComposition addLayer:pagFile];
-    [self.pagView setComposition:pagFile];
+    [self.pagView setComposition:pagComposition];
     
 }
 
