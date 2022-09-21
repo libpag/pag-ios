@@ -1,12 +1,12 @@
 # libpag-ios
 
 <div align="left">
-<img src=https://pag.io/img/new_official_website/logo_l.png width=20% />
+<img src=https://pag.art/img/new_official_website/logo_l.png width=20% />
 </div>
 
 ![license](https://img.shields.io/badge/license-Apache2.0-brightgreen.svg)
 
-[<font color=blue>官方主页</font>](https://pag.io/)
+[<font color=blue>官方主页</font>](https://pag.art/)
 
 ## 项目介绍
 
