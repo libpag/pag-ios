@@ -21,12 +21,13 @@
 		</dict>
 		<dict>
 			<key>LibraryIdentifier</key>
-			<string>ios-arm64</string>
+			<string>ios-arm64_armv7</string>
 			<key>LibraryPath</key>
 			<string>libpag.framework</string>
 			<key>SupportedArchitectures</key>
 			<array>
 				<string>arm64</string>
+				<string>armv7</string>
 			</array>
 			<key>SupportedPlatform</key>
 			<string>ios</string>

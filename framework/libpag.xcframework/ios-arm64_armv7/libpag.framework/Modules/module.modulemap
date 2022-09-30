@@ -1,0 +1,6 @@
+framework module libpag {
+  umbrella header "libpag-umbrella.h"
+
+  export *
+  module * { export * }
+}
