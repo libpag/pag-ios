@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "PAGDecoder.h"
 #import "PAGSurface.h"
 #import "PAGView.h"
 #import "CocoaUtils.h"
