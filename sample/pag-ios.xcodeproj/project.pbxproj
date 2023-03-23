@@ -52,6 +52,13 @@
 		680C6FEC2854E6CC00F64543 /* 0.pag in Resources */ = {isa = PBXBuildFile; fileRef = 680C6FD82854E6CC00F64543 /* 0.pag */; };
 		683BB4F125CBB4FD009719B5 /* jisha.pag in Resources */ = {isa = PBXBuildFile; fileRef = 683BB4F025CBB4FD009719B5 /* jisha.pag */; };
 		683BB4F325CBB657009719B5 /* game.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 683BB4F225CBB657009719B5 /* game.mp4 */; };
+		68C37CD029CCAB9800316690 /* PAGImageViewTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C37CCF29CCAB9800316690 /* PAGImageViewTableViewController.m */; };
+		68EEEAC529CCB6550015E7DC /* 21.pag in Resources */ = {isa = PBXBuildFile; fileRef = 68EEEAC129CCB6550015E7DC /* 21.pag */; };
+		68EEEAC629CCB6550015E7DC /* 23.pag in Resources */ = {isa = PBXBuildFile; fileRef = 68EEEAC229CCB6550015E7DC /* 23.pag */; };
+		68EEEAC729CCB6550015E7DC /* 22.pag in Resources */ = {isa = PBXBuildFile; fileRef = 68EEEAC329CCB6550015E7DC /* 22.pag */; };
+		68EEEAC829CCB6550015E7DC /* 20.pag in Resources */ = {isa = PBXBuildFile; fileRef = 68EEEAC429CCB6550015E7DC /* 20.pag */; };
+		68EEEACB29CCBC5B0015E7DC /* MultiplePAGImageViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EEEACA29CCBC5B0015E7DC /* MultiplePAGImageViewViewController.m */; };
+		68EEEACE29CCBF0B0015E7DC /* LowCPUModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EEEACD29CCBF0B0015E7DC /* LowCPUModeViewController.m */; };
 		852DA6F3230E681900D36CB2 /* RegisterSoftwareDecoderViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 852DA6F2230E681900D36CB2 /* RegisterSoftwareDecoderViewController.mm */; };
 		852DA709230E6A5600D36CB2 /* FFmpegDecoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 852DA702230E6A5600D36CB2 /* FFmpegDecoder.cpp */; };
 		852DA715230E6F4000D36CB2 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 852DA714230E6F3F00D36CB2 /* libiconv.tbd */; };
@@ -124,6 +131,16 @@
 		680C6FD82854E6CC00F64543 /* 0.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = 0.pag; sourceTree = "<group>"; };
 		683BB4F025CBB4FD009719B5 /* jisha.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = jisha.pag; sourceTree = "<group>"; };
 		683BB4F225CBB657009719B5 /* game.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = game.mp4; sourceTree = "<group>"; };
+		68C37CCE29CCAB9800316690 /* PAGImageViewTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAGImageViewTableViewController.h; sourceTree = "<group>"; };
+		68C37CCF29CCAB9800316690 /* PAGImageViewTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAGImageViewTableViewController.m; sourceTree = "<group>"; };
+		68EEEAC129CCB6550015E7DC /* 21.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = 21.pag; sourceTree = "<group>"; };
+		68EEEAC229CCB6550015E7DC /* 23.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = 23.pag; sourceTree = "<group>"; };
+		68EEEAC329CCB6550015E7DC /* 22.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = 22.pag; sourceTree = "<group>"; };
+		68EEEAC429CCB6550015E7DC /* 20.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = 20.pag; sourceTree = "<group>"; };
+		68EEEAC929CCBC5B0015E7DC /* MultiplePAGImageViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiplePAGImageViewViewController.h; sourceTree = "<group>"; };
+		68EEEACA29CCBC5B0015E7DC /* MultiplePAGImageViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiplePAGImageViewViewController.m; sourceTree = "<group>"; };
+		68EEEACC29CCBF0B0015E7DC /* LowCPUModeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LowCPUModeViewController.h; sourceTree = "<group>"; };
+		68EEEACD29CCBF0B0015E7DC /* LowCPUModeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LowCPUModeViewController.m; sourceTree = "<group>"; };
 		852DA6F1230E681900D36CB2 /* RegisterSoftwareDecoderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterSoftwareDecoderViewController.h; sourceTree = "<group>"; };
 		852DA6F2230E681900D36CB2 /* RegisterSoftwareDecoderViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RegisterSoftwareDecoderViewController.mm; sourceTree = "<group>"; };
 		852DA702230E6A5600D36CB2 /* FFmpegDecoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FFmpegDecoder.cpp; sourceTree = "<group>"; };
@@ -229,6 +246,10 @@
 				680C6FC52854E6CB00F64543 /* 10.pag */,
 				680C6FC82854E6CB00F64543 /* 11.pag */,
 				680C6FD02854E6CB00F64543 /* 12.pag */,
+				68EEEAC429CCB6550015E7DC /* 20.pag */,
+				68EEEAC129CCB6550015E7DC /* 21.pag */,
+				68EEEAC329CCB6550015E7DC /* 22.pag */,
+				68EEEAC229CCB6550015E7DC /* 23.pag */,
 				680C6FC92854E6CB00F64543 /* 13.pag */,
 				680C6FCC2854E6CB00F64543 /* 14.pag */,
 				680C6FCD2854E6CB00F64543 /* 15.pag */,
@@ -286,6 +307,12 @@
 				E67C409F25F105390019DD2D /* MoveAndRotateLayerViewController.swift */,
 				680C6FC22854D90B00F64543 /* RenderIntervalViewController.h */,
 				680C6FC32854D90B00F64543 /* RenderIntervalViewController.m */,
+				68C37CCE29CCAB9800316690 /* PAGImageViewTableViewController.h */,
+				68C37CCF29CCAB9800316690 /* PAGImageViewTableViewController.m */,
+				68EEEAC929CCBC5B0015E7DC /* MultiplePAGImageViewViewController.h */,
+				68EEEACA29CCBC5B0015E7DC /* MultiplePAGImageViewViewController.m */,
+				68EEEACC29CCBF0B0015E7DC /* LowCPUModeViewController.h */,
+				68EEEACD29CCBF0B0015E7DC /* LowCPUModeViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -371,6 +398,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68EEEAC529CCB6550015E7DC /* 21.pag in Resources */,
 				680C6FEB2854E6CC00F64543 /* 1.pag in Resources */,
 				680C6FDE2854E6CC00F64543 /* 9.pag in Resources */,
 				680C6FDC2854E6CC00F64543 /* 11.pag in Resources */,
@@ -378,6 +406,7 @@
 				683BB4F325CBB657009719B5 /* game.mp4 in Resources */,
 				680C6FE62854E6CC00F64543 /* 17.pag in Resources */,
 				4D5D389622675BE9006729E8 /* particle_video.pag in Resources */,
+				68EEEAC829CCB6550015E7DC /* 20.pag in Resources */,
 				4DF487E722241F7B0001C955 /* LaunchScreen.storyboard in Resources */,
 				4DF488082224209A0001C955 /* test.png in Resources */,
 				680C6FEC2854E6CC00F64543 /* 0.pag in Resources */,
@@ -397,8 +426,10 @@
 				680C6FE52854E6CC00F64543 /* 19.pag in Resources */,
 				680C6FDD2854E6CC00F64543 /* 13.pag in Resources */,
 				4DF487E222241F7A0001C955 /* Main.storyboard in Resources */,
+				68EEEAC729CCB6550015E7DC /* 22.pag in Resources */,
 				680C6FE72854E6CC00F64543 /* 7.pag in Resources */,
 				680C6FE22854E6CC00F64543 /* 16.pag in Resources */,
+				68EEEAC629CCB6550015E7DC /* 23.pag in Resources */,
 				4D5D389722675BE9006729E8 /* moonlight.pag in Resources */,
 				680C6FE92854E6CC00F64543 /* 6.pag in Resources */,
 				683BB4F125CBB4FD009719B5 /* jisha.pag in Resources */,
@@ -457,16 +488,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68EEEACB29CCBC5B0015E7DC /* MultiplePAGImageViewViewController.m in Sources */,
 				852DA6F3230E681900D36CB2 /* RegisterSoftwareDecoderViewController.mm in Sources */,
 				8568CBEF230D634C0007B2D7 /* ReplaceTextViewController.m in Sources */,
 				4D528E7625CA6219003E7DAF /* VideoViewController.m in Sources */,
 				4D528E8925CA673C003E7DAF /* CustomVideoCompositionInstruction.m in Sources */,
 				4DF4880B2224209A0001C955 /* MainView.m in Sources */,
+				68EEEACE29CCBF0B0015E7DC /* LowCPUModeViewController.m in Sources */,
 				680C6FC42854D90B00F64543 /* RenderIntervalViewController.m in Sources */,
 				4DF487EA22241F7B0001C955 /* main.m in Sources */,
 				852DA709230E6A5600D36CB2 /* FFmpegDecoder.cpp in Sources */,
 				4D528EAF25CAE10F003E7DAF /* BigStickerVideoViewController.m in Sources */,
 				85F4FBAA23C5769C00218EBD /* PixelBufferDemoViewController.m in Sources */,
+				68C37CD029CCAB9800316690 /* PAGImageViewTableViewController.m in Sources */,
 				85F1369223B9E2C80059D5C0 /* RenderMultiplePAGFilesViewController.m in Sources */,
 				4D528EAC25CAE0E5003E7DAF /* SmallStickerVideoViewController.m in Sources */,
 				E67C40A025F105390019DD2D /* MoveAndRotateLayerViewController.swift in Sources */,
@@ -626,8 +660,8 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A25BQKLXTS;
-				ENABLE_BITCODE = YES;
+				DEVELOPMENT_TEAM = RU2LWFT27Z;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/pag-ios/Frameworks",
@@ -668,7 +702,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				ENABLE_BITCODE = YES;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/pag-ios/Frameworks",

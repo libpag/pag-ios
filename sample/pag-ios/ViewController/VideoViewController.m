@@ -32,8 +32,6 @@
 @implementation VideoViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
-    
     [self commonInit];
 }
 
