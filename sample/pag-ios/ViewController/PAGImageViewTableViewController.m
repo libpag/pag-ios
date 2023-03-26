@@ -30,6 +30,7 @@
     if ([filePath length] > 0) {
         [self.pagImageView setPath:filePath];
         [self.pagImageView setCurrentFrame:0];
+        [self.pagImageView setRepeatCount:-1];
         [self.pagImageView play];
     }
 }

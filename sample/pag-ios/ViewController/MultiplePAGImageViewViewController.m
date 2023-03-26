@@ -29,9 +29,10 @@
     float itemHeight = itemWidth;
     for (int i = 0; i < 20; i++) {
         PAGImageView* pagImageView = [[PAGImageView alloc] initWithFrame:CGRectMake(itemWidth * (i % 4), (i / 4) * itemHeight + height, itemWidth, itemHeight)];
-        [pagImageView setPath:[[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"%d", i + 2] ofType:@"pag"]];
-        [pagImageView setCacheAllFramesInMemory:YES];
+        [pagImageView setPath:[[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"%d", i] ofType:@"pag"]];
+        [pagImageView setCacheAllFramesInMemory:NO];
         [self.view addSubview:pagImageView];
+        [pagImageView setRepeatCount:-1];
         [pagImageView play];
     }
 }
