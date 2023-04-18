@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.summary  = 'libpag SDK'
   s.homepage = 'https://github.com/libpag/libpag-ios'
   s.source   = {:git => 'https://github.com/libpag/libpag-ios.git', :tag => s.version.to_s }
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'Apache License Version 2.0', :file => 'LICENSE' }
   s.author = {'libpag' => 'libpag@tencent.com'}
   s.ios.frameworks = ['UIKit', 'VideoToolbox', 'CoreMedia']
   s.vendored_frameworks = 'framework/libpag.xcframework'
@@ -15,9 +15,6 @@ Pod::Spec.new do |s|
   }
   s.user_target_xcconfig = { 
    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-  }
-  s.xcconfig = {
-    'VALID_ARCHS' =>  'arm64 armv7 x86_64',
   }
   
 end
