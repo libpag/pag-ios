@@ -17,6 +17,7 @@
 #import "CocoaUtils.h"
 #import "PAG.h"
 #import "PAGComposition.h"
+#import "PAGDiskCache.h"
 #import "PAGFile.h"
 #import "PAGFont.h"
 #import "PAGImage.h"

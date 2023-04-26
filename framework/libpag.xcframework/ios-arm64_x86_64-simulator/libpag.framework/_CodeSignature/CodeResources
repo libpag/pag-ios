@@ -18,7 +18,11 @@
 		</data>
 		<key>Headers/PAGDecoder.h</key>
 		<data>
-		j7Jz5RjzU9OhA3vmi5/jFJPl61A=
+		PUIFM+7C13E5Wv/AiEH8fj/r29E=
+		</data>
+		<key>Headers/PAGDiskCache.h</key>
+		<data>
+		T82M9t20eX1kFbuRfMaRky9aZ8I=
 		</data>
 		<key>Headers/PAGFile.h</key>
 		<data>
@@ -38,7 +42,7 @@
 		</data>
 		<key>Headers/PAGImageView.h</key>
 		<data>
-		AQjK/3IWkqHW7DVPWHhhASS46Tk=
+		c67dBULhTqMVi5EnqmChpNj5v2U=
 		</data>
 		<key>Headers/PAGLayer.h</key>
 		<data>
@@ -94,7 +98,7 @@
 		</data>
 		<key>Headers/libpag-umbrella.h</key>
 		<data>
-		0a4edKNisFeLzMRijLteCyRrVjs=
+		ker4m8EVkQM7uK/xaQxeCP7Blco=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -144,11 +148,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			j7Jz5RjzU9OhA3vmi5/jFJPl61A=
+			PUIFM+7C13E5Wv/AiEH8fj/r29E=
 			</data>
 			<key>hash2</key>
 			<data>
-			Rxl+K01JoYcPEEOW+CrZdWqMx6UNsOZGceYMuWNfDxw=
+			lnBjJ2gdH90jBlGGmOl/u6wjBDNlyc6iNH6eMZKzU8w=
+			</data>
+		</dict>
+		<key>Headers/PAGDiskCache.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			T82M9t20eX1kFbuRfMaRky9aZ8I=
+			</data>
+			<key>hash2</key>
+			<data>
+			xtfAjHJgbaPAAuK6QeMnpsp2q37nwnXPMaa7OqT0nA8=
 			</data>
 		</dict>
 		<key>Headers/PAGFile.h</key>
@@ -199,11 +214,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AQjK/3IWkqHW7DVPWHhhASS46Tk=
+			c67dBULhTqMVi5EnqmChpNj5v2U=
 			</data>
 			<key>hash2</key>
 			<data>
-			9pK8rup5l83QT9m06IO6uaGESm2L7650ReiawaKdKvk=
+			8GxBJgakL5xUpvJ9X2BK9ibR7kf+5TTWntByKDEdaUs=
 			</data>
 		</dict>
 		<key>Headers/PAGLayer.h</key>
@@ -353,11 +368,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0a4edKNisFeLzMRijLteCyRrVjs=
+			ker4m8EVkQM7uK/xaQxeCP7Blco=
 			</data>
 			<key>hash2</key>
 			<data>
-			e6Y6TnYsSLuLFazL856nsU4FbBwYCtFPeuRq7Gt3ums=
+			PR7tG44g/TS7i+sYUTA8OJ6qHx14EaaGt6bijyR+LrI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
