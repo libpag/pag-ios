@@ -1,4 +1,5 @@
 {
+  "${SDK_VERSION}": "https://github.com/libpag/pag-ios/tree/${SDK_VERSION}/framework/libpag_ios_arm64_simulator.zip",
   "4.2.88": "https://pag.art/file/sdk/libpag_4.2.88_ios_arm64_simulator.zip",
   "4.2.80": "https://pag.art/file/sdk/libpag_4.2.80_ios_arm64_simulator.zip"
 }
