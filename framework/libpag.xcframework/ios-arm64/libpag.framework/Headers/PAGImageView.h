@@ -27,30 +27,27 @@ NS_ASSUME_NONNULL_BEGIN
 
 @optional
 /**
- * Notifies the beginning of the animation. It can be called from either the UI thread or the thread
- * that calls the play method.
+ * Notifies the beginning of the animation.
  */
 - (void)onAnimationStart:(PAGImageView*)pagView;
 
 /**
- * Notifies the end of the animation. It can only be called from the UI thread.
+ * Notifies the end of the animation.
  */
 - (void)onAnimationEnd:(PAGImageView*)pagView;
 
 /**
- * Notifies the cancellation of the animation. It can be called from either the UI thread or the
- * thread that calls the stop method.
+ * Notifies the cancellation of the animation.
  */
 - (void)onAnimationCancel:(PAGImageView*)pagView;
 
 /**
- * Notifies the repetition of the animation. It can only be called from the UI thread.
+ * Notifies the repetition of the animation.
  */
 - (void)onAnimationRepeat:(PAGImageView*)pagView;
 
 /**
- * Notifies another frame of the animation has occurred. It may be called from an arbitrary
- * thread if the animation is running asynchronously.
+ * Notifies the frame updating of the animation.
  */
 - (void)onAnimationUpdate:(PAGImageView*)pagView;
 
@@ -108,21 +105,6 @@ PAG_API @interface PAGImageView : UIImageView
 - (BOOL)setPath:(NSString*)filePath maxFrameRate:(float)maxFrameRate;
 
 /**
- * Asynchronously load a PAG file from the specific path, a block with PAGFile will be called
- * when loading is complete. If loading fails, PAGFile will be set to nil.
- */
-- (void)setPathAsync:(NSString*)filePath completionBlock:(void (^)(PAGFile*))callback;
-
-/**
- * Asynchronously load a PAG file from the specific path with the maxFrameRate limit, a block
- * with PAGFile will be called when loading is complete. If loading fails, PAGFile will be set to
- * nil.
- */
-- (void)setPathAsync:(NSString*)filePath
-        maxFrameRate:(float)maxFrameRate
-     completionBlock:(void (^)(PAGFile*))callback;
-
-/**
  * If set to true, the PAGImageView loads all image frames into the memory, which will significantly
  * increase the rendering performance but may cost lots of additional memory. Use it when you prefer
  * rendering speed over memory usage. If set to false, the PAGImageView loads only one image frame
@@ -148,20 +130,14 @@ PAG_API @interface PAGImageView : UIImageView
 - (void)setRenderScale:(float)scale;
 
 /**
- * The total number of times the animation is set to play. The default is 1, which means the
- * animation will play only once. If the repeat count is set to 0 or a negative value, the
- * animation will play infinity times.
- */
-- (int)repeatCount;
-
-/**
- * Set the number of times the animation to play.
+ * Set the number of times the animation will repeat. The default is 1, which means the animation
+ * will play only once. 0 means the animation will play infinity times.
  */
 - (void)setRepeatCount:(int)repeatCount;
 
 /**
  * Adds a listener to the set of listeners that are sent events through the life of an animation,
- * such as start, repeat, and end. PAGImageView only holds a weak reference to the listener.
+ * such as start, repeat, and end.
  */
 - (void)addListener:(id<PAGImageViewListener>)listener;
 
@@ -192,16 +168,13 @@ PAG_API @interface PAGImageView : UIImageView
 - (UIImage*)currentImage;
 
 /**
- * Starts to play the animation from the current position. Calling the play() method when the
- * animation is already playing has no effect. The play() method does not alter the animation's
- * current position. However, if the animation previously reached its end, it will restart from
- * the beginning.
+ * Starts to play the animation.
  */
 - (void)play;
 
 /**
- * Cancels the animation at the current position. Calling the play() method can resume the animation
- * from the last paused position.
+ * Pauses the animation at the current playing position. Calling the play method can resume the
+ * animation from the last paused playing position.
  */
 - (void)pause;
 
@@ -211,10 +184,10 @@ PAG_API @interface PAGImageView : UIImageView
 - (BOOL)isPlaying;
 
 /**
- * Call this method to render current position immediately. Note that all the changes previously
- * made to the PAGImageView will only take effect after this method is called. If the play() method
- * is already called, there is no need to call it manually since it will be automatically called
- * every frame. Returns true if the content has changed.
+ * Renders the current image frame immediately. Note that all the changes previously made to the
+ * PAGImageView will only take effect after this method is called. If the play() method is already
+ * called, there is no need to call it manually since it will be automatically called every frame.
+ * Returns true if the content has changed.
  */
 - (BOOL)flush;
 
