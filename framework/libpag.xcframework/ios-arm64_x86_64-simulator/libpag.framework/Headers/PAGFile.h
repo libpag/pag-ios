@@ -38,12 +38,6 @@ PAG_API @interface PAGFile : PAGComposition
 + (PAGFile*)Load:(NSString*)path;
 
 /**
- * Asynchronously load a PAG file from the specific path, a block with PAGFile will be called
- * when loading is complete.
- */
-+ (void)LoadAsync:(NSString*)path completionBlock:(void (^)(PAGFile*))callback;
-
-/**
  *  Load a pag file from byte data, return null if the bytes is empty or it's not a valid pag file.
  */
 + (PAGFile*)Load:(const void*)bytes size:(size_t)length;
@@ -90,12 +84,6 @@ PAG_API @interface PAGFile : PAGComposition
  * Passing in null for the image parameter will reset it to default image data.
  */
 - (void)replaceImage:(int)editableImageIndex data:(PAGImage*)value;
-
-/**
- * Replace the image data of the specified layer name.
- * Passing in null for the image parameter will reset it to default image data.
- */
-- (void)replaceImageByName:(NSString*)layerName data:(PAGImage*)value;
 
 /**
  * Return an array of layers by specified editable index and layer type.

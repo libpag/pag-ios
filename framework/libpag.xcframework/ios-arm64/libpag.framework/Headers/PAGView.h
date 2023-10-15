@@ -21,45 +21,66 @@
 #import "PAGLayer.h"
 
 @class PAGView;
-
 @protocol PAGViewListener <NSObject>
 
 @optional
 /**
- * Notifies the beginning of the animation. It can be called from either the UI thread or the thread
- * that calls the play method.
+ * Notifies the start of the animation.
  */
 - (void)onAnimationStart:(PAGView*)pagView;
 
 /**
- * Notifies the end of the animation. It can only be called from the UI thread.
+ * Notifies the end of the animation.
  */
 - (void)onAnimationEnd:(PAGView*)pagView;
 
 /**
- * Notifies the cancellation of the animation. It can be called from either the UI thread or the
- * thread that calls the stop method.
+ * Notifies the cancellation of the animation.
  */
 - (void)onAnimationCancel:(PAGView*)pagView;
 
 /**
- * Notifies the repetition of the animation. It can only be called from the UI thread.
+ * Notifies the repetition of the animation.
  */
 - (void)onAnimationRepeat:(PAGView*)pagView;
 
 /**
- * Notifies another frame of the animation has occurred. It may be called from an arbitrary
- * thread if the animation is running asynchronously.
+ * Notifies the occurrence of another frame of the animation.
  */
 - (void)onAnimationUpdate:(PAGView*)pagView;
+
+/**
+ * Notifies the start of the animation.
+ */
+- (void)onAnimationStart DEPRECATED_MSG_ATTRIBUTE("Please use onAnimationStart:pagView instead");
+
+/**
+ * Notifies the end of the animation.
+ */
+- (void)onAnimationEnd DEPRECATED_MSG_ATTRIBUTE("Please use onAnimationEnd:pagView instead");
+
+/**
+ * Notifies the cancellation of the animation.
+ */
+- (void)onAnimationCancel DEPRECATED_MSG_ATTRIBUTE("Please use onAnimationCancel:pagView instead");
+
+/**
+ * Notifies the repetition of the animation.
+ */
+- (void)onAnimationRepeat DEPRECATED_MSG_ATTRIBUTE("Please use onAnimationRepeat:pagView instead");
 
 @end
 
 PAG_API @interface PAGView : UIView
 
 /**
+ * Default is NO.
+ */
+@property(nonatomic) BOOL sync;
+
+/**
  * Adds a listener to the set of listeners that are sent events through the life of an animation,
- * such as start, repeat, and end. PAGView only holds a weak reference to the listener.
+ * such as start, repeat, and end.
  */
 - (void)addListener:(id<PAGViewListener>)listener;
 
@@ -69,52 +90,25 @@ PAG_API @interface PAGView : UIView
 - (void)removeListener:(id<PAGViewListener>)listener;
 
 /**
- * Indicates whether the animation is allowed to run in the UI thread. The default value is NO.
- * Regardless of whether the animation runs asynchronously, all listener callbacks will be called
- * on the UI thread.
- */
-- (BOOL)sync;
-
-/**
- * Set whether the animation is allowed to run in the UI thread.
- */
-- (void)setSync:(BOOL)value;
-
-/**
- * The total number of times the animation is set to play. The default is 1, which means the
- * animation will play only once. If the repeat count is set to 0 or a negative value, the
- * animation will play infinity times.
- */
-- (int)repeatCount;
-
-/**
- * Set the number of times the animation to play.
- */
-- (void)setRepeatCount:(int)repeatCount;
-
-/**
- * Indicates whether this pag view is playing.
+ * Indicates whether or not this pag view is playing.
  */
 - (BOOL)isPlaying;
 
 /**
- * Starts to play the animation from the current position. Calling the play() method when the
- * animation is already playing has no effect. The play() method does not alter the animation's
- * current position. However, if the animation previously reached its end, it will restart from
- * the beginning.
+ * Start the animation.
  */
 - (void)play;
 
 /**
- * Cancels the animation at the current position. Calling the play() method can resume the animation
- * from the last paused position.
- */
-- (void)pause;
-
-/**
- * Cancels the animation at the current position. Currently, it has the same effect as pause().
+ * Stop the animation.
  */
 - (void)stop;
+
+/**
+ * Set the number of times the animation will repeat. The default is 1, which means the animation
+ * will play only once. 0 means the animation will play infinity times.
+ */
+- (void)setRepeatCount:(int)repeatCount;
 
 /**
  * The path string of a pag file set by setPath.
@@ -128,12 +122,6 @@ PAG_API @interface PAGView : UIView
  * you don't want to load a PAGFile from the internal caches.
  */
 - (BOOL)setPath:(NSString*)filePath;
-
-/**
- * Asynchronously load a PAG file from the specific path, a block with PAGFile will be called
- * when loading is complete. If loading fails, PAGFile will be set to nil.
- */
-- (void)setPathAsync:(NSString*)filePath completionBlock:(void (^)(PAGFile*))callback;
 
 /**
  * Returns the current PAGComposition for PAGView to render as content.
@@ -171,18 +159,6 @@ PAG_API @interface PAGView : UIView
 - (void)setCacheEnabled:(BOOL)value;
 
 /**
- * If set to true, PAG will cache the associated rendering data into a disk file, such as the
- * decoded image frames of video compositions. This can help reduce memory usage and improve
- * rendering performance.
- */
-- (BOOL)useDiskCache;
-
-/**
- * Set the value of useDiskCache property.
- */
-- (void)setUseDiskCache:(BOOL)value;
-
-/**
  * This value defines the scale factor for internal graphics caches, ranges from 0.0 to 1.0. The
  * scale factors less than 1.0 may result in blurred output, but it can reduce the usage of graphics
  * memory which leads to better performance. The default value is 1.0.
@@ -218,7 +194,7 @@ PAG_API @interface PAGView : UIView
 - (void)setScaleMode:(PAGScaleMode)value;
 
 /**
- * Returns a copy of the current matrix.
+ * Returns a copy of current matrix.
  */
 - (CGAffineTransform)matrix;
 
@@ -245,15 +221,8 @@ PAG_API @interface PAGView : UIView
 - (void)setProgress:(double)value;
 
 /**
- * Returns the current frame.
- */
-- (int64_t)currentFrame;
-
-/**
- * Call this method to render current position immediately. Note that all the changes previously
- * made to the PAGView will only take effect after this method is called. If the play() method is
- * already called, there is no need to call it manually since it will be automatically called every
- * frame. Returns true if the content has changed.
+ * Call this method to render current position immediately. If the play() method is already
+ * called, there is no need to call it. Returns true if the content has changed.
  */
 - (BOOL)flush;
 
@@ -274,10 +243,4 @@ PAG_API @interface PAGView : UIView
  * the PAGView will not be captured. Returns nil if the PAGView hasn't been presented yet.
  */
 - (CVPixelBufferRef)makeSnapshot;
-
-/**
- * Returns a rectangle in pixels that defines the displaying area of the specified layer, which is
- * in the coordinate of the PAGView.
- */
-- (CGRect)getBounds:(PAGLayer*)pagLayer;
 @end

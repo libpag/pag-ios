@@ -70,18 +70,6 @@ PAG_API @interface PAGPlayer : NSObject
 - (void)setCacheEnabled:(BOOL)value;
 
 /**
- * If set to true, PAG will cache the associated rendering data into a disk file, such as the
- * decoded image frames of video compositions. This can help reduce memory usage and improve
- * rendering performance.
- */
-- (BOOL)useDiskCache;
-
-/**
- * Set the value of useDiskCache property.
- */
-- (void)setUseDiskCache:(BOOL)value;
-
-/**
  * This value defines the scale factor for internal graphics caches, ranges from 0.0 to 1.0. The
  * scale factors less than 1.0 may result in blurred output, but it can reduce the usage of graphics
  * memory which leads to better performance. The default value is 1.0.
@@ -143,11 +131,6 @@ PAG_API @interface PAGPlayer : NSObject
 - (void)setProgress:(double)value;
 
 /**
- * Returns the current frame.
- */
-- (int64_t)currentFrame;
-
-/**
  * Prepares the player for the next flush() call. It collects all CPU tasks from the current
  * progress of the composition and runs them asynchronously in parallel. It is usually used for
  * speeding up the first frame rendering.
@@ -161,8 +144,8 @@ PAG_API @interface PAGPlayer : NSObject
 - (BOOL)flush;
 
 /**
- * Returns a rectangle in pixels that defines the displaying area of the specified layer, which is
- * in the coordinate of the PAGSurface.
+ * Returns a rectangle that defines the displaying area of the specified layer, which is in the
+ * coordinate of the PAGSurface.
  */
 - (CGRect)getBounds:(PAGLayer*)pagLayer;
 
