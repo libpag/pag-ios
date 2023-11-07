@@ -49,26 +49,6 @@
  */
 - (void)onAnimationUpdate:(PAGView*)pagView;
 
-/**
- * Notifies the start of the animation.
- */
-- (void)onAnimationStart DEPRECATED_MSG_ATTRIBUTE("Please use onAnimationStart:pagView instead");
-
-/**
- * Notifies the end of the animation.
- */
-- (void)onAnimationEnd DEPRECATED_MSG_ATTRIBUTE("Please use onAnimationEnd:pagView instead");
-
-/**
- * Notifies the cancellation of the animation.
- */
-- (void)onAnimationCancel DEPRECATED_MSG_ATTRIBUTE("Please use onAnimationCancel:pagView instead");
-
-/**
- * Notifies the repetition of the animation.
- */
-- (void)onAnimationRepeat DEPRECATED_MSG_ATTRIBUTE("Please use onAnimationRepeat:pagView instead");
-
 @end
 
 PAG_API @interface PAGView : UIView
@@ -221,8 +201,15 @@ PAG_API @interface PAGView : UIView
 - (void)setProgress:(double)value;
 
 /**
- * Call this method to render current position immediately. If the play() method is already
- * called, there is no need to call it. Returns true if the content has changed.
+ * Returns the current frame.
+ */
+- (int64_t)currentFrame;
+
+/**
+ * Call this method to render current position immediately. Note that all the changes previously
+ * made to the PAGView will only take effect after this method is called. If the play() method is
+ * already called, there is no need to call it manually since it will be automatically called every
+ * frame. Returns true if the content has changed.
  */
 - (BOOL)flush;
 
