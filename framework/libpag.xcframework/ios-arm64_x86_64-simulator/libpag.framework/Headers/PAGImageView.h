@@ -19,6 +19,8 @@
 #import <UIKit/UIKit.h>
 #import "PAGComposition.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 @class PAGImageView;
 
 @protocol PAGImageViewListener <NSObject>
@@ -28,29 +30,29 @@
  * Notifies the beginning of the animation. It can be called from either the UI thread or the thread
  * that calls the play method.
  */
-- (void)onAnimationStart:(PAGImageView* _Nonnull)pagView;
+- (void)onAnimationStart:(PAGImageView*)pagView;
 
 /**
  * Notifies the end of the animation. It can only be called from the UI thread.
  */
-- (void)onAnimationEnd:(PAGImageView* _Nonnull)pagView;
+- (void)onAnimationEnd:(PAGImageView*)pagView;
 
 /**
  * Notifies the cancellation of the animation. It can be called from either the UI thread or the
  * thread that calls the stop method.
  */
-- (void)onAnimationCancel:(PAGImageView* _Nonnull)pagView;
+- (void)onAnimationCancel:(PAGImageView*)pagView;
 
 /**
  * Notifies the repetition of the animation. It can only be called from the UI thread.
  */
-- (void)onAnimationRepeat:(PAGImageView* _Nonnull)pagView;
+- (void)onAnimationRepeat:(PAGImageView*)pagView;
 
 /**
  * Notifies another frame of the animation has occurred. It may be called from an arbitrary
  * thread if the animation is running asynchronously.
  */
-- (void)onAnimationUpdate:(PAGImageView* _Nonnull)pagView;
+- (void)onAnimationUpdate:(PAGImageView*)pagView;
 
 @end
 
@@ -80,14 +82,14 @@ PAG_API @interface PAGImageView : UIImageView
  * composition is already added to another PAGImageView, it will be removed from the previous
  * PAGImageView.
  */
-- (void)setComposition:(nullable PAGComposition*)newComposition;
+- (void)setComposition:(PAGComposition*)newComposition;
 
 /**
  * Sets a new PAGComposition and the maxFrameRate limit to the PAGImageView. Note: If the
  * composition is already added to another PAGImageView, it will be removed from the previous
  * PAGImageView.
  */
-- (void)setComposition:(nullable PAGComposition*)newComposition maxFrameRate:(float)maxFrameRate;
+- (void)setComposition:(PAGComposition*)newComposition maxFrameRate:(float)maxFrameRate;
 
 /**
  * Returns the file path set by the setPath() method.
@@ -98,28 +100,27 @@ PAG_API @interface PAGImageView : UIImageView
  * Loads a pag file from the specified path, returns false if the file does not exist, or it is not
  * a valid pag file.
  */
-- (BOOL)setPath:(nullable NSString*)path;
+- (BOOL)setPath:(NSString*)path;
 /**
  * Loads a pag file from the specified path with the maxFrameRate limit, returns false if the file
  * does not exist, or it is not a valid pag file.
  */
-- (BOOL)setPath:(nullable NSString*)filePath maxFrameRate:(float)maxFrameRate;
+- (BOOL)setPath:(NSString*)filePath maxFrameRate:(float)maxFrameRate;
 
 /**
  * Asynchronously load a PAG file from the specific path, a block with PAGFile will be called
  * when loading is complete. If loading fails, PAGFile will be set to nil.
  */
-- (void)setPathAsync:(nullable NSString*)filePath
-     completionBlock:(void (^_Nullable)(PAGFile* __nullable))callback;
+- (void)setPathAsync:(NSString*)filePath completionBlock:(void (^)(PAGFile*))callback;
 
 /**
  * Asynchronously load a PAG file from the specific path with the maxFrameRate limit, a block
  * with PAGFile will be called when loading is complete. If loading fails, PAGFile will be set to
  * nil.
  */
-- (void)setPathAsync:(nullable NSString*)filePath
+- (void)setPathAsync:(NSString*)filePath
         maxFrameRate:(float)maxFrameRate
-     completionBlock:(void (^_Nullable)(PAGFile* __nullable))callback;
+     completionBlock:(void (^)(PAGFile*))callback;
 
 /**
  * If set to true, the PAGImageView loads all image frames into the memory, which will significantly
@@ -162,12 +163,12 @@ PAG_API @interface PAGImageView : UIImageView
  * Adds a listener to the set of listeners that are sent events through the life of an animation,
  * such as start, repeat, and end. PAGImageView only holds a weak reference to the listener.
  */
-- (void)addListener:(nullable id<PAGImageViewListener>)listener;
+- (void)addListener:(id<PAGImageViewListener>)listener;
 
 /**
  * Removes the specified listener from the set of listeners
  */
-- (void)removeListener:(nullable id<PAGImageViewListener>)listener;
+- (void)removeListener:(id<PAGImageViewListener>)listener;
 
 /**
  * Returns the current frame index the PAGImageView is rendering.
@@ -188,7 +189,7 @@ PAG_API @interface PAGImageView : UIImageView
 /**
  * Returns a UIImage capturing the contents of the current PAGImageView.
  */
-- (nullable UIImage*)currentImage;
+- (UIImage*)currentImage;
 
 /**
  * Starts to play the animation from the current position. Calling the play() method when the
@@ -218,3 +219,5 @@ PAG_API @interface PAGImageView : UIImageView
 - (BOOL)flush;
 
 @end
+
+NS_ASSUME_NONNULL_END
