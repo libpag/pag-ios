@@ -20,6 +20,8 @@
 #import <UIKit/UIKit.h>
 #import "PAGComposition.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 /**
  * PAGDecoder provides a utility to read image frames directly from a PAGComposition, and caches the
  * image frames as a sequence file on the disk, which may significantly speed up the reading process
@@ -84,14 +86,14 @@ PAG_API @interface PAGDecoder : NSObject
  * if failed. Note that caller must ensure that the rowBytes stays the same throughout every copying
  * call. Otherwise, it may return false.
  */
-- (BOOL)copyFrameTo:(void* _Nonnull)pixels rowBytes:(size_t)rowBytes at:(NSInteger)index;
+- (BOOL)copyFrameTo:(void*)pixels rowBytes:(size_t)rowBytes at:(NSInteger)index;
 
 /**
  * Reads pixels of the image frame at the given index into the specified CVPixelBuffer. Returns
  * false if failed. Reading image frames into HardwareBuffer usually has better performance than
  * reading into memory.
  */
-- (BOOL)readFrame:(NSInteger)index to:(CVPixelBufferRef _Nonnull)pixelBuffer;
+- (BOOL)readFrame:(NSInteger)index to:(CVPixelBufferRef)pixelBuffer;
 
 /**
  * Returns the image frame at the specified index. Note that this method must be called while the
@@ -101,3 +103,5 @@ PAG_API @interface PAGDecoder : NSObject
 - (nullable UIImage*)frameAtIndex:(NSInteger)index;
 
 @end
+
+NS_ASSUME_NONNULL_END
