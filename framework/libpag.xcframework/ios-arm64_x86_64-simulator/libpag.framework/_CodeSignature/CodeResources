@@ -6,107 +6,207 @@
 	<dict>
 		<key>Headers/CocoaUtils.h</key>
 		<data>
-		1sqVxhRjbfOHX+LzHKioXNJEPH8=
+		wclFyxozeY3mNIg06wCHSbqNPZA=
 		</data>
 		<key>Headers/PAG.h</key>
 		<data>
-		9qLVhi7MuHRMh4eVCGzyGFzAmhE=
+		0k90AhKJ9hsVS+7pigEVg9R4yqo=
 		</data>
 		<key>Headers/PAGComposition.h</key>
 		<data>
-		oirwPZrtOZLXaz9Z0yX60gDeDJ0=
+		j7jayEQ120fnANX+b5jg4IzlKqA=
 		</data>
 		<key>Headers/PAGDecoder.h</key>
 		<data>
-		UErCrad780sSrXH6rt8Y+aqOsu0=
+		+LYnXBCTIgqYKkgptKQgIXO9Ma4=
 		</data>
 		<key>Headers/PAGDiskCache.h</key>
 		<data>
-		T82M9t20eX1kFbuRfMaRky9aZ8I=
+		PZrDlhXbxSuWhgldnFTM/kioPR4=
 		</data>
 		<key>Headers/PAGFile.h</key>
 		<data>
-		1//WwprIj+NvZ1irXsZul4T6FNk=
+		910Xe7lCFziiCWKGgWtxr4XSDUQ=
 		</data>
 		<key>Headers/PAGFont.h</key>
 		<data>
-		sMOTcaLMxjrs7Z4N3eQ5aSKQdZ8=
+		0aAW4591y5x5unvA8Y5vPvH8Nis=
 		</data>
 		<key>Headers/PAGImage.h</key>
 		<data>
-		3GhvlxUY9Ql+kurikNsvsUUtP08=
+		bvjRz9ZosszOs/hyL4mPDLAHIaM=
 		</data>
 		<key>Headers/PAGImageLayer.h</key>
 		<data>
-		wnCP+09kiYGcZlKhO/UZSzvoBRw=
+		PoNEMQ6CsaKRXlLCkLZ7weeGAJs=
 		</data>
 		<key>Headers/PAGImageView.h</key>
 		<data>
-		dSSBCVuUA8jQk9L1ZI/bqaB41eA=
+		AcZK/PjoOFyyj/PERqJblA+a6so=
 		</data>
 		<key>Headers/PAGLayer.h</key>
 		<data>
-		RilkCEV8YdEoX0VAksGAlFI28ks=
+		DDq5tXRzQ0hbhBSl5cKzi5Tyhzw=
 		</data>
 		<key>Headers/PAGMarker.h</key>
 		<data>
-		/abJSBkc/yiSw+5ut65a8Cd4tSI=
+		svvwUDzY6EHkgUbwr3ytM6EnOgM=
 		</data>
 		<key>Headers/PAGPlayer.h</key>
 		<data>
-		Rc1b+rMBd/4udtxllCD3gQYYd2g=
+		6p90toqhFEo8b+EZQkeqiWEcI8s=
 		</data>
 		<key>Headers/PAGScaleMode.h</key>
 		<data>
-		xgI9YqHlBzWsEeVeqQqu2K7kjjk=
+		iMLZHeIKGlAPvOr0d2s5uwaAtmw=
 		</data>
 		<key>Headers/PAGShapeLayer.h</key>
 		<data>
-		irhPprfa1QNHB2XeV4KfdfyuaiY=
+		2hilZMmweoUcGWBrQ5udOtoK92U=
 		</data>
 		<key>Headers/PAGSolidLayer.h</key>
 		<data>
-		VCjM7rG6AlLefYnb8l8BDK/obuo=
+		thB9Ke7iB5VMg/9bV61UNFuEHS4=
 		</data>
 		<key>Headers/PAGSurface.h</key>
 		<data>
-		UTyx1JDKgjRQN5cndLoQl7Cm85g=
+		7/uxvCsuF067OiJhS5E1hMfdxYU=
 		</data>
 		<key>Headers/PAGText.h</key>
 		<data>
-		2GCXFHHV3QN1XeWPQBH0mA7Kjx0=
+		5kZbfbZi5xwFn8q5NuIMl+awaUE=
 		</data>
 		<key>Headers/PAGTextLayer.h</key>
 		<data>
-		ravsQGw8fQIXRYEMSohbT4t5rRU=
+		ThnIHbPqRy4eXyE0KHj1+8EZQFk=
 		</data>
 		<key>Headers/PAGTimeStretchMode.h</key>
 		<data>
-		6h8InpXWr3tg2WQdwolHOUR31Gw=
+		I3eMq7LIqmMBnCEj9hby5qE9w9k=
 		</data>
 		<key>Headers/PAGVideoDecoder.h</key>
 		<data>
-		brXsfcIYTaQbetoZ3aT4k36bUvQ=
+		K7aeQmqvIjj2WT1DrqT0gR6NzQY=
 		</data>
 		<key>Headers/PAGVideoRange.h</key>
 		<data>
-		hrMEYvEn30rFG7g100qBhVy6pCg=
+		MRdK+G34vELoqH5rKGAXdTsAxVg=
 		</data>
 		<key>Headers/PAGView.h</key>
 		<data>
-		Ksrfzx3H5C/ig8s78hSqXeoMTlc=
+		1wQjs4kFQoa3r0uYqD1w/kiDkLE=
 		</data>
 		<key>Headers/libpag.h</key>
 		<data>
-		o06Hp9coMZtSmV3ghKRHo+rHV24=
+		2MMqbtUhCWjhqlqJprsPXR/H91w=
+		</data>
+		<key>Headers/pag/c/ext/egl/pag_egl_globals.h</key>
+		<data>
+		IkeWoLRQmBn9zfKMadfF+uja7l0=
+		</data>
+		<key>Headers/pag/c/ext/pag_surface_ext.h</key>
+		<data>
+		f0aK6T4VQrm/8YEZDfstPwqdDwU=
+		</data>
+		<key>Headers/pag/c/pag.h</key>
+		<data>
+		OuyByWxrC1Qg/sWvC0D4blanpCU=
+		</data>
+		<key>Headers/pag/c/pag_animator.h</key>
+		<data>
+		ryGKorpFBg16FIB4mHVcEQLFP7c=
+		</data>
+		<key>Headers/pag/c/pag_backend_semaphore.h</key>
+		<data>
+		1q1m79JIplwargqhZgGh3+huAEA=
+		</data>
+		<key>Headers/pag/c/pag_backend_texture.h</key>
+		<data>
+		U7KZAFSX3EYpm/3oBkMpONRuLUo=
+		</data>
+		<key>Headers/pag/c/pag_byte_data.h</key>
+		<data>
+		PTXcPgvg7ItQsRqUO82TrJGe14I=
+		</data>
+		<key>Headers/pag/c/pag_composition.h</key>
+		<data>
+		kGmCAQpyY+v19EgbKPx4ExyML1U=
+		</data>
+		<key>Headers/pag/c/pag_decoder.h</key>
+		<data>
+		YNSOy0zgfw5e7yWXeTdeG664p8E=
+		</data>
+		<key>Headers/pag/c/pag_disk_cache.h</key>
+		<data>
+		+ybP1Z5H43/hPxl2zDmMs++dGQo=
+		</data>
+		<key>Headers/pag/c/pag_file.h</key>
+		<data>
+		i36oHsJKfPCQKOtgfnkaUqWLiwc=
+		</data>
+		<key>Headers/pag/c/pag_font.h</key>
+		<data>
+		m+nNrvRAFqgupKxC99nPL4tDBTU=
+		</data>
+		<key>Headers/pag/c/pag_image.h</key>
+		<data>
+		N0/bHMIQyKA5KzjM5o1d1/o7e1w=
+		</data>
+		<key>Headers/pag/c/pag_image_layer.h</key>
+		<data>
+		0qNmrfcRk+cC7e/9IP5x4Qy11F8=
+		</data>
+		<key>Headers/pag/c/pag_layer.h</key>
+		<data>
+		JeAgfYM521gwogCo4gJkN2WfBXg=
+		</data>
+		<key>Headers/pag/c/pag_player.h</key>
+		<data>
+		8r0dGD/JJWgeX0oc7/OQnzhTvIQ=
+		</data>
+		<key>Headers/pag/c/pag_solid_layer.h</key>
+		<data>
+		dF0dQ53o4J3Iu8wq5fbnHNClLIE=
+		</data>
+		<key>Headers/pag/c/pag_surface.h</key>
+		<data>
+		3Qti4HkfWYYTydsDBIUATSbAlEU=
+		</data>
+		<key>Headers/pag/c/pag_text_document.h</key>
+		<data>
+		nDSnRCxI0LIUGqdvdpaf9bpjSEM=
+		</data>
+		<key>Headers/pag/c/pag_types.h</key>
+		<data>
+		CE47bMzC4mrbOaMvQ1ECvTbjttQ=
+		</data>
+		<key>Headers/pag/decoder.h</key>
+		<data>
+		DDROrJc+xQU+p1bEn/vEe6+QxUM=
+		</data>
+		<key>Headers/pag/defines.h</key>
+		<data>
+		i0dQC3WPQcYpYi5lc2k4OIGogOI=
+		</data>
+		<key>Headers/pag/file.h</key>
+		<data>
+		y4AQqnKs9UwM5IRQDvYhGNYnzOM=
+		</data>
+		<key>Headers/pag/gpu.h</key>
+		<data>
+		z2K8GQ7hk4/dQj85ylMDgtgkoco=
+		</data>
+		<key>Headers/pag/pag.h</key>
+		<data>
+		EV+WbOWQb5uIodwrHHLz1iB2rIg=
+		</data>
+		<key>Headers/pag/types.h</key>
+		<data>
+		UkovWNuMKshIdujvOeGVVKo7hK4=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ZHKjyk9/QfKHWenfjsIotAiB2Cg=
-		</data>
-		<key>Modules/module.modulemap</key>
-		<data>
-		8VMV77QzIPomqL0AxBX1f6TVMHY=
+		qZ9aZuwni4q7ziS/8hK9zDxjZQk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -115,175 +215,350 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EdBLxE+URDCFxfEaMNtpZq6skj9EHDNiW/KMtLX1EK8=
+			ZxaQ3M+/jSnCuZljo3coIWDfW+qtkkZgDTIpBnAqxaA=
 			</data>
 		</dict>
 		<key>Headers/PAG.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NFdlGcr+bqsPk2ghdvTTLH8ZBHCw7GSJPgkmM3XIhjw=
+			mREbuNRE8MtaBDS6OHqLmGk1ML01bFrTmajdOdqTbQY=
 			</data>
 		</dict>
 		<key>Headers/PAGComposition.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wBa1xgqESC5+0eXu78nQbn63BSF3y/s7Rwgb6CTo5vY=
+			VUrUTpQOlzpG5d97zIGdadD3OuwL/uubskbS9ekl65o=
 			</data>
 		</dict>
 		<key>Headers/PAGDecoder.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			piLhonsU+oOVsvI9pyBe+vsnc5jhh6X+XpIMyOw6SdQ=
+			g0a4t0iIfm88HEvFxYDiVOgSVSZMkFksVKH7LDGbZ88=
 			</data>
 		</dict>
 		<key>Headers/PAGDiskCache.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xtfAjHJgbaPAAuK6QeMnpsp2q37nwnXPMaa7OqT0nA8=
+			0Jfz8vAgk+BYh2WzotBulyyfobUSO3CYr8jqPiZ4lvM=
 			</data>
 		</dict>
 		<key>Headers/PAGFile.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aKrLvqsBgdYtcgTkNgyKupBmWVtja0CLyEICXK/M61k=
+			Rl7Sp5BDpCEnGA7GL8mGJn/A3ArA5YDtj3aa9kL2xhw=
 			</data>
 		</dict>
 		<key>Headers/PAGFont.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eVgnHiVZ9jO9n5YJc3NkGD0jPS7txHyy5wfb8rCEN9c=
+			Z6mRn0l/mwzlsySfj4uLQjdhR+RHGpqCOO13Y5ntp38=
 			</data>
 		</dict>
 		<key>Headers/PAGImage.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZV0dpYjhJco0O2itXO71ijcdCHPD/GEcRoPzZqfOj88=
+			eUGv5ygK0CSBJfmMKGWqyi1VmnF3MY/8eC4tACXRUK8=
 			</data>
 		</dict>
 		<key>Headers/PAGImageLayer.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ChD0dmlvkyCrzP6Zqs8bwMP0TzIHbJy87pzJi0Ulb1I=
+			fer6sCxPMGolXaZk0yNuwg2i/9h9P9H5Eis7sfhkVII=
 			</data>
 		</dict>
 		<key>Headers/PAGImageView.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dRSN6BDZ76pR1a7UujIT+9b0WkVlOHdvgJdwx6ZvJ1A=
+			a89tB4BvTQ8ZMeqOJdjqTwGGzzjuokWVtntCVvQn+Ko=
 			</data>
 		</dict>
 		<key>Headers/PAGLayer.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NGc2n6KnA9FE8W+TmOhcT4aQdLoh3fDuKZNMo1XdkQg=
+			8iEbY5PT+aCnL5Ettbvvtq16Jm8hy/BO43FZwywfDKM=
 			</data>
 		</dict>
 		<key>Headers/PAGMarker.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/VYTsDkqVKkiBLKHCc2uEsPYlY0xBiP/X/3ydG027kc=
+			f6rGzRibEfBLvwvVSacSiFI7iUvUAFMjfr3Z3P6PSFQ=
 			</data>
 		</dict>
 		<key>Headers/PAGPlayer.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3EkPGqcI2yQqJRc0B6HwqIK349dfLA2xrMMrqIE8eZ8=
+			KrhwHgrWUgfq13966j3egfPAWRglXi4Y2CqRaBoj0G0=
 			</data>
 		</dict>
 		<key>Headers/PAGScaleMode.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HH96MHx5yEjGnBG8iMIn00c991lYL5crnSnUKRYDInQ=
+			/5/k313//7G5J2xuu/GSioE99enfkpbV6aOMMBMdj90=
 			</data>
 		</dict>
 		<key>Headers/PAGShapeLayer.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RIr+2T62C6a8eKISpRsXtiPp0UOxioIUxFu0Zk5cDZk=
+			EmtlbiCcBBADk9qmT8ADL8YmxplMgFSesZpYGXuGj8s=
 			</data>
 		</dict>
 		<key>Headers/PAGSolidLayer.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BiUcdgIzsxQIyGQmpYHCJxaP6XbdJPLEKLanGKwK7nw=
+			w4WjykaZEkkXw0xnoSh86nWdJWf6XdhP+7nfUaXYR/w=
 			</data>
 		</dict>
 		<key>Headers/PAGSurface.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Dwv0tbtxQ0kxcvgvm7U51Soix+Zr99wfNAWyOu7nyT8=
+			OyKjoO9mLdge5oYI93PiZ7oMmX2SRmqpsjpjz+Gk+ZQ=
 			</data>
 		</dict>
 		<key>Headers/PAGText.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NL5NEw5i2LK9Xf9tLAJS2Se0HkTOS5t1HtBSrxPBmv8=
+			QEVLp+EejRPuE4ZY0wnvxObG+HAPleylTcF0n+oWa+M=
 			</data>
 		</dict>
 		<key>Headers/PAGTextLayer.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oMZpQDhB1i/orgFfAwHkLlrivkS1vj3JYUBGp5X9VYU=
+			dctcHBaYwTsOSFxWN5yeGTUnOT3TqDCQKoC2yWEJWTE=
 			</data>
 		</dict>
 		<key>Headers/PAGTimeStretchMode.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IZjGdiINN1LkAplPicgaYbgDLI1WQ3L284ys09Zx/mc=
+			WCWFbHQEx0653NdqTaCY7uKNTn8ARRXke4wxYfKwuuo=
 			</data>
 		</dict>
 		<key>Headers/PAGVideoDecoder.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			53PQfiKr+UJosPJDbRsRlBMMNN9dTXVCr3Ri/DVcOSA=
+			z8Zm8iTZooZ2aO1D0xZlSVl+pofCMt1XQv5bysAvG1g=
 			</data>
 		</dict>
 		<key>Headers/PAGVideoRange.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uxWhQyngdrhDJBz14fC3CF7mXvq7OI60pAre9XSPElw=
+			eFs9m3mZiOTG/lsMkMjRow4Hk3kQGeAaPQ+iTHu9D/4=
 			</data>
 		</dict>
 		<key>Headers/PAGView.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g52/dIlpAgTskPYaVIRJuhdgLMzFI3P7yIBdHlWv/fE=
+			xnNNFDddSwUk6nYR3C107zWQv9uzkVt10JvDidNfp0c=
 			</data>
 		</dict>
 		<key>Headers/libpag.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			X/BKlEEjIt7hmwo5JsVeUxcctJida/HnfHXdxOjs+E4=
+			hzWNFDZUihc+HkMJNVTG7Fcn5OMBIvy7RjV5Xq/BaHc=
 			</data>
 		</dict>
-		<key>Modules/module.modulemap</key>
+		<key>Headers/pag/c/ext/egl/pag_egl_globals.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pG4CkCL18MNk7fJz/n3J/ehmcSn2u/nsYnE2VSmF1NQ=
+			RfoGWlbxNIep45TdJRS9KFdDBljg1zo+dYopp/8L/yE=
+			</data>
+		</dict>
+		<key>Headers/pag/c/ext/pag_surface_ext.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			biwVj12Led2KUzKg+6xi/dioWTaUsO7LKhy+s4Ib6SE=
+			</data>
+		</dict>
+		<key>Headers/pag/c/pag.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			70bE+v0+Gv3UqjMv9zTmVT/UoV17zh93L4rQh0KI7Zc=
+			</data>
+		</dict>
+		<key>Headers/pag/c/pag_animator.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lHkLe39PIpSWBU7X5EoLRwItR0Y/tHm7KYlEprkeDTA=
+			</data>
+		</dict>
+		<key>Headers/pag/c/pag_backend_semaphore.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ukZypohjm0vIu0zX/z3vphZ+2yBYB4+DYCRRYDRROCo=
+			</data>
+		</dict>
+		<key>Headers/pag/c/pag_backend_texture.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			N1eWyrcnRsAU6600fi/QT1DvQShFOQScf8yXlwr6UDo=
+			</data>
+		</dict>
+		<key>Headers/pag/c/pag_byte_data.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oDey43WS/pqSsk25y4ojvY6YnpkIeD6ZPLR00ry/Gu4=
+			</data>
+		</dict>
+		<key>Headers/pag/c/pag_composition.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			v+OsHsJcPzCdkcMQWKHjkW5hJMTXdSOuZr6km0cKeBU=
+			</data>
+		</dict>
+		<key>Headers/pag/c/pag_decoder.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Zo61cgGdYHu5UdkEHs/fCV52r7+fyFLWytAftyyg5VE=
+			</data>
+		</dict>
+		<key>Headers/pag/c/pag_disk_cache.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			54BIZAaawgLOsk5Vd0rp1jmUTgzBl88O7MYCN1Pd5SI=
+			</data>
+		</dict>
+		<key>Headers/pag/c/pag_file.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			g9mRz+rkOklF29aWwtYtsr+/lD9q5A6u+biRe5yBl54=
+			</data>
+		</dict>
+		<key>Headers/pag/c/pag_font.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ej1yadv15XJkirUiz8rZ6LkRHZgYQygY/yVQ/ym9zQ8=
+			</data>
+		</dict>
+		<key>Headers/pag/c/pag_image.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Y4/2wHSWJX6fV/1zzWeQdCpq6UbtWojuG/T+7XFkXNw=
+			</data>
+		</dict>
+		<key>Headers/pag/c/pag_image_layer.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ca0wHLFtOYipZV2PY+XpdQvLSKszbUUenODdO+UA0fU=
+			</data>
+		</dict>
+		<key>Headers/pag/c/pag_layer.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PNrhQYZotqELfuaQ8qSOPQhWAPJiC4vmKgQkY/AgjPs=
+			</data>
+		</dict>
+		<key>Headers/pag/c/pag_player.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZHl6zzr5e6/OBWYidF0OW9XMOih/JJ/YHYlLXZKnJX8=
+			</data>
+		</dict>
+		<key>Headers/pag/c/pag_solid_layer.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gX/SGexbnSJZ8FXwyVlPIx1m46jr4qp/mmSQjpfJmus=
+			</data>
+		</dict>
+		<key>Headers/pag/c/pag_surface.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AEZ6wLt59zINuo18TVAgzxeevaRKfl9yYgn1knhW9fI=
+			</data>
+		</dict>
+		<key>Headers/pag/c/pag_text_document.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bs8PHv/MQ1+q5K6N0PTSsqlG7F3UhJQdAlOUVoiKaHE=
+			</data>
+		</dict>
+		<key>Headers/pag/c/pag_types.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QcZdXQ9i7fQSDTcc+CICNSEOjulUDu6GMXylKObA62M=
+			</data>
+		</dict>
+		<key>Headers/pag/decoder.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9czbSPFyqQop87PLvq/ruCocgRONRRdnDWQdC9xSqmU=
+			</data>
+		</dict>
+		<key>Headers/pag/defines.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			t3Y4L+QKnJ/47wOhpmhDENXhjyNen0Pg/fUinUTbN+o=
+			</data>
+		</dict>
+		<key>Headers/pag/file.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+dMd9ESwKCrOjzhMKWQehw2vw0NCc7zvmempHwqAXOA=
+			</data>
+		</dict>
+		<key>Headers/pag/gpu.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Xpg5Ut83MAxjHAyh2pydDQeJTOw7FO2ms6NUPjVLTe4=
+			</data>
+		</dict>
+		<key>Headers/pag/pag.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kLSR7aZCI2OrgwgDCxQIfNQyEsxhTm0lsNBguB8EQUQ=
+			</data>
+		</dict>
+		<key>Headers/pag/types.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2KnRnVwb0lWhslBpybu5FO1Gq8kgnhBGFyxrrDGz6ig=
 			</data>
 		</dict>
 	</dict>
