@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
 
   s.name     = 'libpag'
-  s.version  = '0.5.6'
+  s.version  = '0.5.7'
   s.ios.deployment_target   = '9.0'
   s.summary  = 'libpag SDK'
   s.homepage = 'https://github.com/libpag/libpag-ios'
   s.source   = {
- "http": "https://github.com/libpag/pag-ios/releases/download/v0.5.6/libpag_4.5.5_ios_arm64_x86_64.zip"
+ "http": "https://github.com/libpag/pag-ios/releases/download/0.5.7/libpag_0.5.7_ios_arm64_x86_64.zip"
   }
   s.license          = { :type => 'Apache License Version 2.0', :file => 'LICENSE' }
   s.author = {'libpag' => 'libpag@tencent.com'}
