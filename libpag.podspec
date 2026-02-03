@@ -12,7 +12,4 @@ Pod::Spec.new do |s|
   s.author = {'libpag' => 'libpag@tencent.com'}
   s.ios.frameworks = ['UIKit', 'VideoToolbox', 'CoreMedia']
   s.vendored_frameworks = 'libpag.xcframework'
-  s.xcconfig = {
-    'VALID_ARCHS' =>  'arm64 armv7 x86_64',
-  }
 end
