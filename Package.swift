@@ -14,6 +14,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "libpag",
-            path: "framework/libpag.xcframework")
+            url: "https://github.com/libpag/pag-ios/releases/download/4.3.76/libpag_4.3.76_ios_arm64_x86_64.zip",
+            checksum: "42d89fde7dba5b5634720f7aef3fac17f6569e287f0b8aa012d675797310a35d")
     ]
 )
