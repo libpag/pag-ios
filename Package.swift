@@ -1,5 +1,6 @@
 // swift-tools-version: 5.6
 // The swift-tools-version declares the minimum version of Swift required to build this package.
+// 模板文件：由 submit_cocoapods.sh 根据实际版本号生成 Package.swift，请勿直接修改生成的 Package.swift
 
 import PackageDescription
 
@@ -14,7 +15,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "libpag",
-            url: "https://github.com/libpag/pag-ios/releases/download/4.3.76/libpag_4.3.76_ios_arm64_x86_64.zip",
-            checksum: "42d89fde7dba5b5634720f7aef3fac17f6569e287f0b8aa012d675797310a35d")
+            url: "https://github.com/libpag/pag-ios/releases/download/4.3.78/libpag_4.3.78_ios_arm64_x86_64.zip",
+            checksum: "e831bda41ea713242218a3422d2248fb6410ab8984a8feb0f191e9668849c140")
     ]
 )
