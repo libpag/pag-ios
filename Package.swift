@@ -15,7 +15,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "libpag",
-            url: "https://github.com/libpag/pag-ios/releases/download/4.3.78/libpag_4.3.78_ios_arm64_x86_64.zip",
-            checksum: "e831bda41ea713242218a3422d2248fb6410ab8984a8feb0f191e9668849c140")
+            url: "https://github.com/libpag/pag-ios/releases/download/4.4.63/libpag_4.4.63_ios_arm64_x86_64.zip",
+            checksum: "6964d61359b15120267e6ba00ce36e4b784d0c9ed9a03d7c78681b199f0c2a74")
     ]
 )
