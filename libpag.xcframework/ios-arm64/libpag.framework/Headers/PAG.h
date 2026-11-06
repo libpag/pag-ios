@@ -32,4 +32,15 @@ PAG_API @interface PAG : NSObject
  */
 + (NSString*)SDKVersion;
 
+/**
+ * Sets whether the anonymous usage data reporting is enabled. It is recommended to call this
+ * method as early as possible, before any PAG content is loaded. The default value is YES.
+ */
++ (void)SetDataReportEnabled:(BOOL)value;
+/**
+ * Returns whether the anonymous usage data reporting is enabled. The default value is YES.
+ */
++ (BOOL)DataReportEnabled;
+
+
 @end

@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/PAG.h</key>
 		<data>
-		9qLVhi7MuHRMh4eVCGzyGFzAmhE=
+		egf6FU2lyMuRKOMeKezC7DUHu1c=
 		</data>
 		<key>Headers/PAGComposition.h</key>
 		<data>
@@ -102,11 +102,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		4BV09NJ8od6itof0m8GDijUzTgs=
+		Yhya5gI0MjnRxHOmfE9oLrtczbE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		8VMV77QzIPomqL0AxBX1f6TVMHY=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		njfTzRUUhctPotehY6xRlcksp1U=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -126,11 +130,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9qLVhi7MuHRMh4eVCGzyGFzAmhE=
+			egf6FU2lyMuRKOMeKezC7DUHu1c=
 			</data>
 			<key>hash2</key>
 			<data>
-			NFdlGcr+bqsPk2ghdvTTLH8ZBHCw7GSJPgkmM3XIhjw=
+			64Cjshx1qjFzzwTQ1dJzOtdiio02J3/RI4t4ihvO4ec=
 			</data>
 		</dict>
 		<key>Headers/PAGComposition.h</key>
@@ -384,6 +388,17 @@
 			<key>hash2</key>
 			<data>
 			pG4CkCL18MNk7fJz/n3J/ehmcSn2u/nsYnE2VSmF1NQ=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			njfTzRUUhctPotehY6xRlcksp1U=
+			</data>
+			<key>hash2</key>
+			<data>
+			nAUscR/2PizCoOpT71j6CLca+O1HZIxAKqdOW7kmxyI=
 			</data>
 		</dict>
 	</dict>
